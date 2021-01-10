@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[8],{78:function(o){o.exports=JSON.parse('{"allTagsPath":"/roggenland-orthopaedie-docs/blog/tags","slug":"docusaurus","name":"docusaurus","count":3,"permalink":"/roggenland-orthopaedie-docs/blog/tags/docusaurus"}')}}]);
