@@ -1,6 +1,7 @@
 # Website
 
 This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This website is built for [https://roggenland-orthopaedie.de](https://roggenland-orthopaedie.de)
 
 ## Installation
 
@@ -9,6 +10,8 @@ yarn install
 ```
 
 ## Local Development
+
+Clone this repository
 
 ```console
 yarn start

@@ -1,19 +1,19 @@
 module.exports = {
-  title: 'My Site',
+  title: 'Roggenland Orthopaedie',
   tagline: 'The tagline of my site',
-  url: 'https://your-docusaurus-test-site.com',
-  baseUrl: '/',
+  url: 'https://philipp985.github.io/',
+  baseUrl: '/roggenland-orthopaedie-docs/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  organizationName: 'philipp985', // Usually your GitHub org/user name.
+  projectName: 'roggenland-orthopaedie-docs', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'My Site',
+      title: '',
       logo: {
         alt: 'My Site Logo',
-        src: 'img/logo.svg',
+        src: 'img/logo.png',
       },
       items: [
         {
