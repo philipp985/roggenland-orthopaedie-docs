@@ -1,103 +1,92 @@
 module.exports = {
-  title: 'Roggenland Orthopaedie',
-  tagline: 'The tagline of my site',
-  url: 'https://philipp985.github.io/',
-  baseUrl: '/roggenland-orthopaedie-docs/',
-  onBrokenLinks: 'throw',
-  onBrokenMarkdownLinks: 'warn',
-  favicon: 'img/favicon.ico',
-  organizationName: 'philipp985', // Usually your GitHub org/user name.
-  projectName: 'roggenland-orthopaedie-docs', // Usually your repo name.
+  noIndex: true, // Defaults to `false`
+  title: "Orthopädische Facharztpraxis Roggenland",
+  tagline: "Ihre Orthopäden in Bochum",
+  url: "https://philipp985.github.io/",
+  baseUrl: "/roggenland-orthopaedie-docs/",
+  onBrokenLinks: "throw",
+  onBrokenMarkdownLinks: "warn",
+  favicon: "img/favicon.ico",
+  organizationName: "philipp985", // Usually your GitHub org/user name.
+  projectName: "roggenland-orthopaedie-docs", // Usually your repo name.
   themeConfig: {
+    colorMode: {
+      defaultMode: "light",
+      disableSwitch: true,
+    },
     navbar: {
-      title: '',
+      title: "",
       logo: {
-        alt: 'My Site Logo',
-        src: 'img/logo.png',
+        alt: "My Site Logo",
+        src: "img/logo.png",
       },
       items: [
         {
-          to: 'docs/',
-          activeBasePath: 'docs',
-          label: 'Docs',
-          position: 'left',
+          to: "features",
+          // activeBasePath: 'docs',
+          label: "Leistungsspektrum",
+          position: "left",
         },
-        {to: 'blog', label: 'Blog', position: 'left'},
-        {
-          href: 'https://github.com/facebook/docusaurus',
-          label: 'GitHub',
-          position: 'right',
-        },
+        { to: "team", label: "Team", position: "left" },
+        { to: "company", label: "Praxis", position: "left" },
+        { to: "blog", label: "Aktuelles", position: "left" },
+        { to: "contact", label: "Kontakt & Anfahrt", position: "right" },
       ],
     },
     footer: {
-      style: 'dark',
+      style: "dark",
       links: [
-        {
-          title: 'Docs',
-          items: [
-            {
-              label: 'Style Guide',
-              to: 'docs/',
-            },
-            {
-              label: 'Second Doc',
-              to: 'docs/doc2/',
-            },
-          ],
-        },
-        {
-          title: 'Community',
-          items: [
-            {
-              label: 'Stack Overflow',
-              href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-            },
-            {
-              label: 'Discord',
-              href: 'https://discordapp.com/invite/docusaurus',
-            },
-            {
-              label: 'Twitter',
-              href: 'https://twitter.com/docusaurus',
-            },
-          ],
-        },
-        {
-          title: 'More',
-          items: [
-            {
-              label: 'Blog',
-              to: 'blog',
-            },
-            {
-              label: 'GitHub',
-              href: 'https://github.com/facebook/docusaurus',
-            },
-          ],
-        },
+        // {
+        //   title: 'Inhalte',
+        //   items: [
+        //     {
+        //       label: 'Leistungsspektrum',
+        //       to: 'docs/',
+        //     },
+        //     {
+        //       label: 'Aktuelles',
+        //       to: 'docs/doc2/',
+        //     },
+        //     {
+        //       label: 'Team',
+        //       to: 'docs/doc2/',
+        //     },
+        //     {
+        //       label: 'Praxis',
+        //       to: 'docs/doc2/',
+        //     },
+        //   ],
+        // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland.<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
+    },
+    announcementBar: {
+      id: "support_us", // Any value that will identify this message.
+      content:
+        'Wir sind auch in Corona Zeiten für Sie da. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="#">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
+      // backgroundColor: '#fafbfc', // Defaults to `#fff`.
+      // textColor: '#091E42', // Defaults to `#000`.
     },
   },
   presets: [
     [
-      '@docusaurus/preset-classic',
+      "@docusaurus/preset-classic",
       {
         docs: {
-          sidebarPath: require.resolve('./sidebars.js'),
+          sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/',
+          // editUrl:
+          //   'https://github.com/philipp985/roggenland-orthopaedie-docs/tree/master/',
         },
         blog: {
           showReadingTime: true,
+          blogSidebarTitle: "Inhalt",
           // Please change this to your repo.
-          editUrl:
-            'https://github.com/facebook/docusaurus/edit/master/website/blog/',
+          // editUrl:
+          //   'https://github.com/qmBase/roggenland-orthopaedie-docs/tree/master/',
         },
         theme: {
-          customCss: require.resolve('./src/css/custom.css'),
+          customCss: require.resolve("./src/css/custom.css"),
         },
       },
     ],

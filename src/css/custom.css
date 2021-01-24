@@ -7,14 +7,24 @@
 
 /* You can override the default Infima variables here. */
 :root {
-  --ifm-color-primary: #25c2a0;
-  --ifm-color-primary-dark: rgb(33, 175, 144);
-  --ifm-color-primary-darker: rgb(31, 165, 136);
-  --ifm-color-primary-darkest: rgb(26, 136, 112);
-  --ifm-color-primary-light: rgb(70, 203, 174);
-  --ifm-color-primary-lighter: rgb(102, 212, 189);
-  --ifm-color-primary-lightest: rgb(146, 224, 208);
-  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #808080;
+  --ifm-color-primary-dark: #737373;
+  --ifm-color-primary-darker: #6d6d6d;
+  --ifm-color-primary-darkest: #5a5a5a;
+  --ifm-color-primary-light: #8d8d8d;
+  --ifm-color-primary-lighter: #939393;
+  --ifm-color-primary-lightest: #a6a6a6;
+
+  /*Customized*/
+  --ifm-color-secondary: #ff5c00;
+  --ifm-color-secondary-dark: #e65300;
+  --ifm-color-secondary-darker: #d94e00;
+  --ifm-color-secondary-darkest: #b34000;
+  --ifm-color-secondary-light: #ff6c1a;
+  --ifm-color-secondary-lighter: #ff7426;
+  --ifm-color-secondary-lightest: #ff8d4d;
+
+  --ifm-avatar-photo-size-xxl: 9rem;
 }
 
 .docusaurus-highlight-code-line {
@@ -22,4 +32,107 @@
   display: block;
   margin: 0 calc(-1 * var(--ifm-pre-padding));
   padding: 0 var(--ifm-pre-padding);
+}
+
+.bgOdd {
+  background: var(--ifm-color-primary-lightest);
+}
+
+.heroBgImage {
+  /* background-image: radial-gradient(
+      circle at 18% 40%,
+      rgba(53, 53, 53, 0.06) 0%,
+      rgba(53, 53, 53, 0.06) 50%,
+      rgba(254, 254, 254, 0.06) 50%,
+      rgba(254, 254, 254, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 66% 36%,
+      rgba(126, 126, 126, 0.06) 0%,
+      rgba(126, 126, 126, 0.06) 50%,
+      rgba(70, 70, 70, 0.06) 50%,
+      rgba(70, 70, 70, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 33% 100%,
+      rgba(237, 237, 237, 0.06) 0%,
+      rgba(237, 237, 237, 0.06) 50%,
+      rgba(162, 162, 162, 0.06) 50%,
+      rgba(162, 162, 162, 0.06) 100%
+    ),
+    linear-gradient(90deg, hsl(141, 0%, 89%), hsl(141, 0%, 89%)); */
+  background-image: radial-gradient(
+      circle at 69% 86%,
+      rgba(165, 165, 165, 0.06) 0%,
+      rgba(165, 165, 165, 0.06) 25%,
+      rgba(193, 193, 193, 0.06) 25%,
+      rgba(193, 193, 193, 0.06) 50%,
+      rgba(221, 221, 221, 0.06) 50%,
+      rgba(221, 221, 221, 0.06) 75%,
+      rgba(249, 249, 249, 0.06) 75%,
+      rgba(249, 249, 249, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 49% 76%,
+      rgba(129, 129, 129, 0.06) 0%,
+      rgba(129, 129, 129, 0.06) 25%,
+      rgba(164, 164, 164, 0.06) 25%,
+      rgba(164, 164, 164, 0.06) 50%,
+      rgba(200, 200, 200, 0.06) 50%,
+      rgba(200, 200, 200, 0.06) 75%,
+      rgba(235, 235, 235, 0.06) 75%,
+      rgba(235, 235, 235, 0.06) 100%
+    ),
+    radial-gradient(
+      circle at 22% 64%,
+      rgba(173, 173, 173, 0.06) 0%,
+      rgba(173, 173, 173, 0.06) 25%,
+      rgba(119, 119, 119, 0.06) 25%,
+      rgba(119, 119, 119, 0.06) 50%,
+      rgba(64, 64, 64, 0.06) 50%,
+      rgba(64, 64, 64, 0.06) 75%,
+      rgba(10, 10, 10, 0.06) 75%,
+      rgba(10, 10, 10, 0.06) 100%
+    ),
+    linear-gradient(307deg, rgb(255, 255, 255), rgb(255, 255, 255));
+}
+
+.featureBg {
+  background-image: radial-gradient(
+      circle at 11% 62%,
+      rgba(205, 205, 205, 0.04) 0%,
+      rgba(205, 205, 205, 0.04) 50%,
+      rgba(149, 149, 149, 0.04) 50%,
+      rgba(149, 149, 149, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 78% 10%,
+      rgba(49, 49, 49, 0.04) 0%,
+      rgba(49, 49, 49, 0.04) 50%,
+      rgba(254, 254, 254, 0.04) 50%,
+      rgba(254, 254, 254, 0.04) 100%
+    ),
+    radial-gradient(
+      circle at 92% 43%,
+      rgba(34, 34, 34, 0.04) 0%,
+      rgba(34, 34, 34, 0.04) 50%,
+      rgba(206, 206, 206, 0.04) 50%,
+      rgba(206, 206, 206, 0.04) 100%
+    ),
+    linear-gradient(329deg, rgb(241, 77, 33), rgb(218, 227, 61));
+}
+
+.avatar__photo--xxl {
+  height: var(--ifm-avatar-photo-size-xxl);
+  width: var(--ifm-avatar-photo-size-xxl);
+}
+
+.img__rectangle {
+  border-radius: 15px;
+}
+.hero__subtitle {
+  color: var(--ifm-color-primary-dark);
+}
+.hero__title {
+  color: var(--ifm-color-primary-darkest);
 }

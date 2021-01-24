@@ -1,0 +1,4 @@
+---
+id: trigger
+title: Triggertherapie
+---
