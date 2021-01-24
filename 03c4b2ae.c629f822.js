@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{72:function(e){e.exports=JSON.parse('{"allTagsPath":"/roggenland-orthopaedie-docs/blog/tags","slug":"hygiene","name":"hygiene","count":1,"permalink":"/roggenland-orthopaedie-docs/blog/tags/hygiene"}')}}]);
