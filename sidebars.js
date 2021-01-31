@@ -1,6 +1,9 @@
 module.exports = {
   someSidebar: {
     Leistungspektrum: [
+      "kinder-orthopaedie",
+      "sportmedizin",
+      "schmerztherapie/akupunktur",
       {
         Diagnostik: [
           "diagnostik/digitales-roentgen",
@@ -12,9 +15,9 @@ module.exports = {
       },
       {
         Schmerztherapie: [
-          // "schmerztherapie/infiltration",
+          "schmerztherapie/infiltration",
           // "schmerztherapie/roentgen-infiltration",
-          "schmerztherapie/akupunktur",
+
           "schmerztherapie/axomera",
           // "schmerztherapie/molekulare-medizin",
           // "schmerztherapie/neuraltherapie",
@@ -27,9 +30,9 @@ module.exports = {
           "physikalische-therapie/laser",
           "physikalische-therapie/stosswellen",
           // "physikalische-therapie/trigger",
-          // "physikalische-therapie/turbosonic",
+          "physikalische-therapie/turbosonic",
           // "physikalische-therapie/ultrakurzwellen",
-          // "physikalische-therapie/tens",
+          "physikalische-therapie/tens",
         ],
       },
     ],

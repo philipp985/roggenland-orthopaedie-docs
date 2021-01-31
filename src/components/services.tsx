@@ -3,18 +3,18 @@ import React from "react";
 export const baseServices = [
   {
     title: "Diagnostik",
-    imageUrl: "img/diagnostic.jpg",
+    imageUrl: "img/diagnostik_startPage.jpeg",
     description: <></>,
   },
   {
     title: "Schmerztherapie",
-    imageUrl: "img/pain.jpg",
+    imageUrl: "img/schmerztherapie_startPage.jpeg",
     description: <></>,
   },
 
   {
     title: "Physikalische Therapie",
-    imageUrl: "img/tube.jpg",
+    imageUrl: "img/physikalisch_startPage.jpeg",
     description: <></>,
   },
 ];

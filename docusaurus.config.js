@@ -9,6 +9,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "philipp985", // Usually your GitHub org/user name.
   projectName: "roggenland-orthopaedie-docs", // Usually your repo name.
+  // i18n: { defaultLocale: "de", locales: ["de"] },
   themeConfig: {
     colorMode: {
       defaultMode: "light",
@@ -30,7 +31,13 @@ module.exports = {
         { to: "team", label: "Team", position: "left" },
         { to: "company", label: "Praxis", position: "left" },
         { to: "blog", label: "Aktuelles", position: "left" },
-        { to: "contact", label: "Kontakt & Anfahrt", position: "right" },
+        { to: "contact", label: "Kontakt & Anfahrt" },
+        {
+          to: "contact",
+          label: "Jetzt Termin vereinbaren",
+          position: "right",
+          className: "button button--secondary navbarBtn",
+        },
       ],
     },
     footer: {
