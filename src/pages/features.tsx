@@ -18,28 +18,28 @@ function Team() {
           <p className="hero__subtitle">
             Operative und konservative Orthopädie und Unfallchirurgie <br />
             <Link
-              to={useBaseUrl("docs/diagnostik")}
+              to={useBaseUrl("docs/diagnostik/digitales-roentgen")}
               className="text--secondary"
             >
               Sportmedizin
             </Link>{" "}
             |{" "}
             <Link
-              to={useBaseUrl("docs/diagnostik")}
+              to={useBaseUrl("docs/diagnostik/digitales-roentgen")}
               className="text--secondary"
             >
               Chirotherapie
             </Link>{" "}
             |{" "}
             <Link
-              to={useBaseUrl("docs/diagnostik")}
+              to={useBaseUrl("docs/diagnostik/digitales-roentgen")}
               className="text--secondary"
             >
               Kinderorthopädische Sprechstunde
             </Link>{" "}
             |{" "}
             <Link
-              to={useBaseUrl("docs/diagnostik")}
+              to={useBaseUrl("docs/diagnostik/digitales-roentgen")}
               className="text--secondary"
             >
               Akupunktur
