@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[19],{87:function(e,t,n){"use strict";n.r(t);var a=n(125),i=n(0),l=n.n(i);t.default=function(){return l.a.createElement(a.a,{title:"Hello"},l.a.createElement("div",{style:{display:"flex",justifyContent:"center",alignItems:"center",height:"50vh",fontSize:"20px"}},l.a.createElement("p",null,"Privacy")))}}}]);
