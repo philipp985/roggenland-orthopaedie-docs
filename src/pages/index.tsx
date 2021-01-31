@@ -52,10 +52,14 @@ function Home() {
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >
-        <div className="container">
+        <div className="container container--fluid">
           <div className="row">
-            <div className="col col--7">
-              <h1 className="hero__title">{siteConfig.title}</h1>
+            <div className="col col--7 padding-vert--lg">
+              <h1 className="hero__title">
+                {siteConfig.title}
+                <br />
+                Roggenland
+              </h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
 
               {/* <div className="row">
@@ -101,7 +105,7 @@ function Home() {
             <div className="col col--5">
               <img
                 alt="Team"
-                src={useBaseUrl("img/team.png")}
+                src={useBaseUrl("img/hero_cropped.jpg")}
                 className="img__rectangle"
               />
             </div>
@@ -146,7 +150,7 @@ function Home() {
                       "button button--outline button--secondary button--lg",
                       styles.getStarted
                     )}
-                    to={useBaseUrl("docs/")}
+                    to={useBaseUrl("features/")}
                   >
                     Mehr erfahren
                   </Link>

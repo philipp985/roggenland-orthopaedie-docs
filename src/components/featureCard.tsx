@@ -12,7 +12,7 @@ export function FeatureCard({
   return (
     <div
       className="card shadow--md"
-      style={{ height: "25rem", marginBottom: "2rem" }}
+      style={{ minHeight: "25rem", marginBottom: "2rem" }}
     >
       <div className="card__header">
         <h3>{title}</h3>

@@ -40,3 +40,18 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 - grey: "c1bdbd",
 - brown: "5f3620",
 - orange: "ff5c00",
+
+### TODO
+
+- Startseite
+  - Umbruch Praxis
+  - Falsche Link mehr erhfahren
+- Features
+- Card equal height
+- Feature as links
+
+- Docs
+- Remove overview
+-
+- Team
+- Bilder austauschen

@@ -6,14 +6,14 @@ export const getTeam = () => {
   var gerd: TeamMember = {
     name: "Dr. med. Gerhard Roggenland",
     features: FeaturesGerd,
-    imageUrl: "img/gerd.png",
+    imageUrl: "img/gerd_square.jpg",
     position: "Facharzt für Orthopädie und Unfallchirugie",
   };
   team.push(gerd);
   var katharina: TeamMember = {
     name: "Katharina Roggenland",
     features: FeaturesKatharina,
-    imageUrl: "img/katharina.png",
+    imageUrl: "img/katharina_square.jpg",
     position: "Fachärztin für Orthopädie und Unfallchirugie",
   };
   team.push(katharina);

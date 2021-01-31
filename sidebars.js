@@ -3,7 +3,6 @@ module.exports = {
     Leistungspektrum: [
       {
         Diagnostik: [
-          "diagnostik",
           "diagnostik/digitales-roentgen",
           "diagnostik/knochendichtemessung",
           "diagnostik/ultraschall",
@@ -13,7 +12,6 @@ module.exports = {
       },
       {
         Schmerztherapie: [
-          "schmerztherapie",
           // "schmerztherapie/infiltration",
           // "schmerztherapie/roentgen-infiltration",
           "schmerztherapie/akupunktur",
@@ -24,7 +22,6 @@ module.exports = {
       },
       {
         "Physikalische Therapie": [
-          "physikalische-therapie",
           "physikalische-therapie/magnetodyn",
           "physikalische-therapie/stima",
           "physikalische-therapie/laser",

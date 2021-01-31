@@ -9,7 +9,7 @@ export function DoctorCard({ imageUrl, name, features, position }: TeamMember) {
       <div className="card__body">
         <div className="avatar avatar--vertical">
           {imgUrl && (
-            <img className="avatar__photo avatar__photo--xl" src={imgUrl} />
+            <img className="avatar__photo avatar__photo--xxl" src={imgUrl} />
           )}
           <div className="avatar__intro">
             <h4 className="avatar__name">{name}</h4>

@@ -1,3 +1,5 @@
+import Link from "@docusaurus/Link";
+import useBaseUrl from "@docusaurus/useBaseUrl";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
@@ -15,8 +17,33 @@ function Team() {
           <h1 className="hero__title">Unser Leistungsspektrum</h1>
           <p className="hero__subtitle">
             Operative und konservative Orthopädie und Unfallchirurgie <br />
-            Sportmedizin | Chirotherapie | Kinderorthopädische Sprechstunde |
-            Akupunktur
+            <Link
+              to={useBaseUrl("docs/diagnostik")}
+              className="text--secondary"
+            >
+              Sportmedizin
+            </Link>{" "}
+            |{" "}
+            <Link
+              to={useBaseUrl("docs/diagnostik")}
+              className="text--secondary"
+            >
+              Chirotherapie
+            </Link>{" "}
+            |{" "}
+            <Link
+              to={useBaseUrl("docs/diagnostik")}
+              className="text--secondary"
+            >
+              Kinderorthopädische Sprechstunde
+            </Link>{" "}
+            |{" "}
+            <Link
+              to={useBaseUrl("docs/diagnostik")}
+              className="text--secondary"
+            >
+              Akupunktur
+            </Link>
           </p>
         </div>
       </header>

@@ -12,7 +12,7 @@ export const featuresData: FeatureItem[] = [
       "Muskelkraftmessung",
       "Fußdruckmessung",
     ],
-    link: "/docs/diagnostik",
+    link: "/docs/diagnostik/digitales-roentgen",
   },
   {
     title: "Schmerztherapie",
@@ -25,7 +25,7 @@ export const featuresData: FeatureItem[] = [
       "Molekular-medizinische Behandlungen (z.B. Hyalart, ACP, Infusionen)",
       "Neuraltherapie",
     ],
-    link: "/docs/schmerztherapie",
+    link: "/docs/schmerztherapie/infiltration",
   },
   {
     title: "Physikalische Therapie",
@@ -40,6 +40,6 @@ export const featuresData: FeatureItem[] = [
       "Ultrakurzwellentherapie",
       "TENS (transdermale elektrische Nervenstimulation)",
     ],
-    link: "/docs/physikalische-therapie",
+    link: "/docs/physikalische-therapie/magnetodyn",
   },
 ];
