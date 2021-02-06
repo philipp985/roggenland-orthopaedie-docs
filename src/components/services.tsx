@@ -4,18 +4,36 @@ export const baseServices = [
   {
     title: "Diagnostik",
     imageUrl: "img/diagnostik_startPage.jpeg",
-    description: <></>,
+    description: (
+      <>
+        Unsere Praxis verfügt über eine Vielfalt an modernen Diagnoseverfahren
+        wie z.B. digitales Röntgen, Sonografie, Elektromyografie,
+        Fußdruckpunktmessung und Knochendichtemessung.
+      </>
+    ),
   },
   {
     title: "Schmerztherapie",
     imageUrl: "img/schmerztherapie_startPage.jpeg",
-    description: <></>,
+    description: (
+      <>
+        Schmerztherapeutisch führen wir sämtliche innovativen Verfahren wie z.B.
+        die interventionelle Schmerztherapie, Chirotherapie, Akupunktur und
+        Injektionen durch.
+      </>
+    ),
   },
 
   {
     title: "Physikalische Therapie",
     imageUrl: "img/physikalisch_startPage.jpeg",
-    description: <></>,
+    description: (
+      <>
+        Für die physikalische Therapie verfügen wir über diverse moderne Geräte
+        wie Laser, Trigger, dynamische Tiefenwellen, pulsierendes Magnetfeld,
+        Hydrojet, Turbosonic und TENS.
+      </>
+    ),
   },
 ];
 

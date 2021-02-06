@@ -28,6 +28,7 @@ module.exports = {
           label: "Leistungsspektrum",
           position: "left",
         },
+        { to: "doctors", label: "Ärzte", position: "left" },
         { to: "team", label: "Team", position: "left" },
         { to: "company", label: "Praxis", position: "left" },
         { to: "blog", label: "Aktuelles", position: "left" },

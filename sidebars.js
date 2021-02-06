@@ -1,8 +1,9 @@
 module.exports = {
   someSidebar: {
     Leistungspektrum: [
-      "kinder-orthopaedie",
       "sportmedizin",
+      "chirotherapie",
+      "kinder-orthopaedie",
       "schmerztherapie/akupunktur",
       {
         Diagnostik: [

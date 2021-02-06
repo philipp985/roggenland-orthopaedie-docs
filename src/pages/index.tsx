@@ -113,7 +113,7 @@ function Home() {
         </div>
       </header>
       <main>
-        <div className="container text--center">
+        {/* <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>
         {features && features.length > 0 && (
@@ -126,7 +126,7 @@ function Home() {
               </div>
             </div>
           </section>
-        )}
+        )} */}
         {baseServices && baseServices.length > 0 && (
           <div>
             <div className="container text--center">
