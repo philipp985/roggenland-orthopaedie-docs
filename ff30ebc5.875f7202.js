@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[52],{116:function(o){o.exports=JSON.parse('{"title":"Inhalt","items":[{"title":"Corona","permalink":"/roggenland-orthopaedie-docs/blog/corona"}]}')}}]);
