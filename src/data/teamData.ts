@@ -25,7 +25,7 @@ const FeaturesGerd = [
   "Weiterbildung am Anatomischen Institut der Wilhelms-Universität Münster",
   "Weiterbildung in der Unfallchirurgie am Universitätsklinikum Essen",
   "Facharztausbildung in der Orthopädischen Universitätsklinik Düsseldorf",
-  "Weiterbildung spezielle orthopädische Chirurgie",
+  "Spezielle orthopädische Chirurgie",
   "Ausbildung Sonografie der Säuglingshüfte (Stolzalpe/Österreich)",
   "Ausbildung Chirotherapie (Isny-Neutrauchburg)",
   "Akademischer Rat und Oberarzt der Orthopädischen Universitätsklinik Düsseldorf",

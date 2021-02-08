@@ -27,7 +27,7 @@ export function Feature({ imageUrl, title, description, isAvatar = false }) {
       )}
 
       <h3 className="text--center">{title}</h3>
-      <p>{description}</p>
+      <p style={{ textAlign: "justify" }}>{description}</p>
     </div>
   );
 }

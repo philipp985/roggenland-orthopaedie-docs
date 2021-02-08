@@ -20,7 +20,7 @@ function Company() {
         <div className="container">
           <div className="row">
             {getCompanyFeatures().map((x, i) => (
-              <div className="col col--4  padding-vert--md" key={i}>
+              <div className="col col--6  padding-vert--md" key={i}>
                 <CompanyFeatureCard order={i} {...x} />
               </div>
             ))}

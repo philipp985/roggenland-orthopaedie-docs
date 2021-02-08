@@ -66,7 +66,7 @@ module.exports = {
         //   ],
         // },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland.<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
+      copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
     },
     announcementBar: {
       id: "support_us", // Any value that will identify this message.

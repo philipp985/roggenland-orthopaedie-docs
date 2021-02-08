@@ -34,8 +34,8 @@ const features = [
     imageUrl: "img/undraw_fitness_stats.svg",
     description: (
       <>
-        Wir begrüßen Sie in unseren modernen neu gestalteten und ausgestateten
-        Praxisräumlichkeiten im City Point.
+        Wir begrüßen Sie in unserer Praxis im City Point, die mit dem aktuellen
+        Stand der Technik ausgestattet ist.
       </>
     ),
   },
@@ -113,7 +113,7 @@ function Home() {
         </div>
       </header>
       <main>
-        {/* <div className="container text--center">
+        <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>
         {features && features.length > 0 && (
@@ -126,7 +126,7 @@ function Home() {
               </div>
             </div>
           </section>
-        )} */}
+        )}
         {baseServices && baseServices.length > 0 && (
           <div>
             <div className="container text--center">

@@ -12,7 +12,7 @@ function Doctors() {
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >
         <div className="container">
-          <h1 className="hero__title">Unser Team</h1>
+          <h1 className="hero__title">Ärzte</h1>
           <p className="hero__subtitle">Kompetenz & Erfahrung</p>
         </div>
       </header>
