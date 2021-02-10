@@ -43,29 +43,29 @@ module.exports = {
     },
     footer: {
       style: "dark",
-      links: [
-        // {
-        //   title: 'Inhalte',
-        //   items: [
-        //     {
-        //       label: 'Leistungsspektrum',
-        //       to: 'docs/',
-        //     },
-        //     {
-        //       label: 'Aktuelles',
-        //       to: 'docs/doc2/',
-        //     },
-        //     {
-        //       label: 'Team',
-        //       to: 'docs/doc2/',
-        //     },
-        //     {
-        //       label: 'Praxis',
-        //       to: 'docs/doc2/',
-        //     },
-        //   ],
-        // },
-      ],
+      // links: [
+      //   {
+      //     title: "Inhalte",
+      //     items: [
+      //       {
+      //         label: "Leistungsspektrum",
+      //         to: "docs/",
+      //       },
+      //       {
+      //         label: "Aktuelles",
+      //         to: "docs/doc2/",
+      //       },
+      //       {
+      //         label: "Team",
+      //         to: "docs/doc2/",
+      //       },
+      //       {
+      //         label: "Praxis",
+      //         to: "docs/doc2/",
+      //       },
+      //     ],
+      //   },
+      // ],
       copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
     },
     announcementBar: {

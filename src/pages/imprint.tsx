@@ -34,13 +34,13 @@ function Imprint() {
             <br />
             E-Mail: {companyData.email}
           </p>
-          <h2>Umsatzsteuer-ID</h2>
+          {/* <h2>Umsatzsteuer-ID</h2>
           <p>
             Umsatzsteuer-Identifikationsnummer gem&auml;&szlig; &sect; 27 a
             Umsatzsteuergesetz:
             <br />
             DE999999999
-          </p>
+          </p> */}
           <h2>Aufsichtsbeh&ouml;rde</h2>
           <p>
             Landes&auml;rztekammer Westfalen-Lippe
@@ -75,7 +75,7 @@ function Imprint() {
               http://aekwl.de
             </a>
           </p>
-          <h2>Angaben zur Berufshaftpflichtversicherung</h2>
+          {/* <h2>Angaben zur Berufshaftpflichtversicherung</h2>
           <p>
             <strong>Name und Sitz des Versicherers:</strong>
             <br />
@@ -89,7 +89,7 @@ function Imprint() {
             <strong>Geltungsraum der Versicherung:</strong>
             <br />
             Deutschland
-          </p>
+          </p> */}
           <h2>Redaktionell Verantwortlicher</h2>
           <p>
             Dr. Gerhard Roggenland

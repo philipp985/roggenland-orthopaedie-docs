@@ -10,13 +10,12 @@ function Privacy() {
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >
         <div className="container">
-          <h1 className="hero__title">Impressum</h1>
+          <h1 className="hero__title">Datenschutzerklärung</h1>
         </div>
       </header>
 
       <main>
         <div className="container">
-          <h1>Datenschutz&shy;erkl&auml;rung</h1>
           <h2>1. Datenschutz auf einen Blick</h2>
           <h3>Allgemeine Hinweise</h3>
           <p>
@@ -342,7 +341,7 @@ function Privacy() {
             &ndash; insbesondere gesetzliche Aufbewahrungsfristen &ndash;
             bleiben unber&uuml;hrt.
           </p>
-          <h2>5. Newsletter</h2>
+          {/* <h2>5. Newsletter</h2>
           <h3>Newsletter&shy;daten</h3>
           <p>
             Wenn Sie den auf der Website angebotenen Newsletter beziehen
@@ -353,7 +352,7 @@ function Privacy() {
             nicht bzw. nur auf freiwilliger Basis erhoben. Diese Daten verwenden
             wir ausschlie&szlig;lich f&uuml;r den Versand der angeforderten
             Informationen und geben diese nicht an Dritte weiter.
-          </p>
+          </p> 
           <p>
             Die Verarbeitung der in das Newsletteranmeldeformular eingegebenen
             Daten erfolgt ausschlie&szlig;lich auf Grundlage Ihrer Einwilligung
@@ -388,8 +387,8 @@ function Privacy() {
               Sie k&ouml;nnen der Speicherung widersprechen, sofern Ihre
               Interessen unser berechtigtes Interesse &uuml;berwiegen.
             </strong>
-          </p>
-          <h2>6. Plugins und Tools</h2>
+          </p>*/}
+          <h2>5. Plugins und Tools</h2>
           <h3>Font Awesome (lokales Hosting)</h3>
           <p>
             Diese Seite nutzt zur einheitlichen Darstellung von Schriftarten
