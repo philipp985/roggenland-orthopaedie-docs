@@ -1,0 +1,1 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[59],{123:function(e){e.exports=JSON.parse('{"title":"Inhalt","items":[{"title":"Corona","permalink":"/roggenland-orthopaedie-docs/blog/corona"},{"title":"Verst\xe4rkung","permalink":"/roggenland-orthopaedie-docs/blog/verstaerkung"},{"title":"Neue Website","permalink":"/roggenland-orthopaedie-docs/blog/neue-website"}]}')}}]);
