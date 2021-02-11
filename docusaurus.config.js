@@ -69,9 +69,9 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
     },
     announcementBar: {
-      id: "support_us", // Any value that will identify this message.
+      id: "new_website", // Any value that will identify this message.
       content:
-        'Wir sind auch in Corona Zeiten für Sie da. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="#">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
+        'Wir sind auch in der Corona Pandemie für Sie erreichbar. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="/blog/corona">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
       // backgroundColor: '#fafbfc', // Defaults to `#fff`.
       // textColor: '#091E42', // Defaults to `#000`.
     },
