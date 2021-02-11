@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[52],{116:function(o){o.exports=JSON.parse('{"allTagsPath":"/roggenland-orthopaedie-docs/blog/tags","slug":"verstarkung","name":"verst\xe4rkung","count":1,"permalink":"/roggenland-orthopaedie-docs/blog/tags/verstarkung"}')}}]);

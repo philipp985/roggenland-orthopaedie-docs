@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[25],{93:function(a){a.exports=JSON.parse('{"allTagsPath":"/roggenland-orthopaedie-docs/blog/tags","slug":"team","name":"team","count":1,"permalink":"/roggenland-orthopaedie-docs/blog/tags/team"}')}}]);
