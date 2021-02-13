@@ -14,8 +14,8 @@ const features = [
     imageUrl: "img/undraw_injured.svg",
     description: (
       <>
-        Unsere orthopädische Praxis zeichnet sich durch mehr als 20 Jahre
-        praktische und operative Erfahrung aus.
+        Seit mehr als 20 Jahren behandeln wir unserer orthopädischen Praxis
+        Patienten operativ und konservativ.
       </>
     ),
   },
@@ -34,7 +34,7 @@ const features = [
     imageUrl: "img/undraw_fitness_stats.svg",
     description: (
       <>
-        Wir begrüßen Sie in unserer Praxis im City Point, die mit dem aktuellen
+        Wir begrüßen Sie in unserer Praxis im City Point, die nach dem neuesten
         Stand der Technik ausgestattet ist.
       </>
     ),

@@ -6,4 +6,4 @@ author_title: Facharzt für Orthopädie und Unfallchirugie
 tags: [Team, Verstärkung]
 ---
 
-Seit dem 01.01.2021 begrüßen wir meine Tochter Katharina Roggenland als Fachärztin für Orthopädie und Unfallchirurgie in unsere Praxis. Nach dem Medizinstudium in Marburg und Essen war für sie der Weg in die Orthopädie und Unfallchirurgie klar. Im Rahmen ihrer Facharztausbildung in Dortmund und Bochum konnte sie viel Erfahrungen sammeln. Wir freuen uns auf die Zusammenarbeit.
+Seit dem 01.01.2021 begrüßen wir meine Tochter Katharina Roggenland als Fachärztin für Orthopädie und Unfallchirurgie in unserer Praxis. Bereits während des Medizinstudiums in Marburg und Essen hat sie sich für die Fachrichtung Orthopädie und Unfallchirurgie entschieden. Im Rahmen ihrer Facharztausbildung in Dortmund und Bochum konnte sie viele Erfahrungen sammeln. Wir freuen uns auf die Zusammenarbeit.

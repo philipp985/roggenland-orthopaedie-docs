@@ -5,7 +5,10 @@ import TeamMember from "../models/teamMember";
 export function DoctorCard({ imageUrl, name, features, position }: TeamMember) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className="card shadow--md" style={{ minHeight: "38rem" }}>
+    <div
+      className="card shadow--md"
+      style={{ minHeight: "38rem", marginBottom: "2rem" }}
+    >
       <div className="card__body">
         <div className="avatar avatar--vertical">
           {imgUrl && (
