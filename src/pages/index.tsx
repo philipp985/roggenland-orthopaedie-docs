@@ -14,7 +14,7 @@ const features = [
     imageUrl: "img/undraw_injured.svg",
     description: (
       <>
-        Seit mehr als 20 Jahren behandeln wir unserer orthopädischen Praxis
+        Seit mehr als 20 Jahren behandeln wir in unserer orthopädischen Praxis
         Patienten operativ und konservativ.
       </>
     ),
