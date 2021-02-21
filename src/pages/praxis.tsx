@@ -5,9 +5,12 @@ import CompanyFeatureCard from "../components/companyFeatureCard";
 import { getCompanyFeatures } from "../data/companyFeatureData";
 import styles from "./styles.module.css";
 
-function Company() {
+function Praxis() {
   return (
-    <Layout title="Team">
+    <Layout
+      title="Praxis"
+      description="Wir begrüßen Sie in unserer Praxis im City Point, die nach dem neuesten Stand der Technik ausgestattet ist."
+    >
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >
@@ -38,4 +41,4 @@ function Company() {
   );
 }
 
-export default Company;
+export default Praxis;

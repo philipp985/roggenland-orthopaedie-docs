@@ -5,7 +5,7 @@ import styles from "./styles.module.css";
 
 function Privacy() {
   return (
-    <Layout title="Hello">
+    <Layout title="Datenschutz">
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >
@@ -19,18 +19,16 @@ function Privacy() {
           <h2>1. Datenschutz auf einen Blick</h2>
           <h3>Allgemeine Hinweise</h3>
           <p>
-            Die folgenden Hinweise geben einen einfachen &Uuml;berblick
-            dar&uuml;ber, was mit Ihren personenbezogenen Daten passiert, wenn
-            Sie diese Website besuchen. Personenbezogene Daten sind alle Daten,
-            mit denen Sie pers&ouml;nlich identifiziert werden k&ouml;nnen.
-            Ausf&uuml;hrliche Informationen zum Thema Datenschutz entnehmen Sie
-            unserer unter diesem Text aufgef&uuml;hrten
-            Datenschutzerkl&auml;rung.
+            Die folgenden Hinweise geben einen einfachen Überblick darüber, was
+            mit Ihren personenbezogenen Daten passiert, wenn Sie diese Website
+            besuchen. Personenbezogene Daten sind alle Daten, mit denen Sie
+            persönlich identifiziert werden können. Ausführliche Informationen
+            zum Thema Datenschutz entnehmen Sie unserer unter diesem Text
+            aufgeführten Datenschutzerklärung.
           </p>
           <h3>Datenerfassung auf dieser Website</h3>
           <h4>
-            Wer ist verantwortlich f&uuml;r die Datenerfassung auf dieser
-            Website?
+            Wer ist verantwortlich für die Datenerfassung auf dieser Website?
           </h4>
           <p>
             Die Datenverarbeitung auf dieser Website erfolgt durch den

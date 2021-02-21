@@ -9,7 +9,10 @@ import styles from "./styles.module.css";
 
 function Team() {
   return (
-    <Layout title="Leistungsspektrum">
+    <Layout
+      title="Leistungsspektrum"
+      description="Unser Leistungsspektrum umfasst Diagnostik, Schmerztherapie und physikalische Therapie"
+    >
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >

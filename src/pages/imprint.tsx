@@ -6,7 +6,7 @@ import styles from "./styles.module.css";
 
 function Imprint() {
   return (
-    <Layout title="Hello">
+    <Layout title="Impressum">
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >

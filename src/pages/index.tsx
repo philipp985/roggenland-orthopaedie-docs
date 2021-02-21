@@ -47,7 +47,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      description="Operative und konservative orthopädische Therapien seit mehr als 20 Jahren in Bochum."
     >
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}

@@ -29,7 +29,7 @@ module.exports = {
         },
         { to: "doctors", label: "Ärzte", position: "left" },
         { to: "team", label: "Team", position: "left" },
-        { to: "company", label: "Praxis", position: "left" },
+        { to: "praxis", label: "Praxis", position: "left" },
         { to: "blog", label: "Aktuelles", position: "left" },
         { to: "contact", label: "Kontakt & Anfahrt" },
         {

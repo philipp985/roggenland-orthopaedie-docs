@@ -7,7 +7,10 @@ import styles from "./styles.module.css";
 
 function Doctors() {
   return (
-    <Layout title="Team">
+    <Layout
+      title="Ärzte"
+      description="Kompetenz & Erfahrung Fachärzte für Orthopädie und Unfallchirurgie"
+    >
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >
