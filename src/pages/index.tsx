@@ -4,6 +4,7 @@ import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
+import { FaCalendarAlt } from "react-icons/fa";
 import { Feature } from "../components/feature";
 import { baseServices } from "../components/services";
 import styles from "./styles.module.css";
@@ -96,9 +97,9 @@ function Home() {
                     "button button--secondary button--lg",
                     styles.getStarted
                   )}
-                  to={useBaseUrl("contact")}
+                  to={useBaseUrl("termin")}
                 >
-                  Jetzt Termin vereinbaren
+                  <FaCalendarAlt /> Jetzt Termin vereinbaren
                 </Link>
               </div>
             </div>

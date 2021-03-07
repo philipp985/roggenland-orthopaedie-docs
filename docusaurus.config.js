@@ -31,9 +31,9 @@ module.exports = {
         { to: "team", label: "Team", position: "left" },
         { to: "praxis", label: "Praxis", position: "left" },
         { to: "blog", label: "Aktuelles", position: "left" },
-        { to: "contact", label: "Kontakt & Anfahrt" },
+        { to: "kontakt", label: "Kontakt & Anfahrt" },
         {
-          to: "contact",
+          to: "termin",
           label: "Jetzt Termin vereinbaren",
           position: "right",
           className: "button button--secondary navbarBtn",

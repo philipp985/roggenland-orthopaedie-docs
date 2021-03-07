@@ -6,7 +6,7 @@ import { FaFax, FaMapPin, FaPhone, FaRegPaperPlane } from "react-icons/fa";
 import { companyData, openingHours } from "../data/companyData";
 import styles from "./styles.module.css";
 
-function Contact() {
+function Kontakt() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
@@ -77,4 +77,4 @@ function Contact() {
   );
 }
 
-export default Contact;
+export default Kontakt;

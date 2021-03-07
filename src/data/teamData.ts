@@ -4,6 +4,7 @@ export const getTeam = () => {
   var team: TeamMember[] = [];
 
   var gerd: TeamMember = {
+    id: "gerhard",
     name: "Dr. med. Gerhard Roggenland",
     features: FeaturesGerd,
     imageUrl: "img/gerd_square.jpg",
@@ -11,6 +12,7 @@ export const getTeam = () => {
   };
   team.push(gerd);
   var katharina: TeamMember = {
+    id: "katharina",
     name: "Katharina Roggenland",
     features: FeaturesKatharina,
     imageUrl: "img/katharina_square.jpg",

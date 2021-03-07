@@ -1,13 +1,21 @@
+import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import React from "react";
+import { FaCalendarAlt } from "react-icons/fa";
 import TeamMember from "../models/teamMember";
 
-export function DoctorCard({ imageUrl, name, features, position }: TeamMember) {
+export function DoctorCard({
+  imageUrl,
+  name,
+  features,
+  position,
+  id,
+}: TeamMember) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div
       className="card shadow--md"
-      style={{ minHeight: "38rem", marginBottom: "2rem" }}
+      style={{ minHeight: "43rem", marginBottom: "2rem" }}
     >
       <div className="card__body">
         <div className="avatar avatar--vertical">
@@ -29,6 +37,14 @@ export function DoctorCard({ imageUrl, name, features, position }: TeamMember) {
             <li key={i}>{x}</li>
           ))}
         </ul>
+      </div>
+      <div className="card__footer">
+        <Link
+          className={"button button--outline button--block button--secondary"}
+          to={useBaseUrl("termin" + id)}
+        >
+          <FaCalendarAlt /> Termin vereinbaren
+        </Link>
       </div>
     </div>
   );
