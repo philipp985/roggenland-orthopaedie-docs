@@ -3,7 +3,7 @@ import React from "react";
 export const baseServices = [
   {
     title: "Diagnostik",
-    imageUrl: "img/diagnostik_startPage.jpeg",
+    imageUrl: "img/diagnostik_startPage.webp",
     description: (
       <>
         Unsere Praxis verfügt über eine Vielfalt an modernen Diagnoseverfahren
@@ -14,7 +14,7 @@ export const baseServices = [
   },
   {
     title: "Schmerztherapie",
-    imageUrl: "img/schmerztherapie_startPage.jpeg",
+    imageUrl: "img/schmerztherapie_startPage.jpg",
     description: (
       <>
         Schmerztherapeutisch führen wir sämtliche innovativen Verfahren wie z.B.
@@ -26,7 +26,7 @@ export const baseServices = [
 
   {
     title: "Physikalische Therapie",
-    imageUrl: "img/physikalisch_startPage.jpeg",
+    imageUrl: "img/physikalisch_startPage.jpg",
     description: (
       <>
         Für die physikalische Therapie verfügen wir über diverse moderne Geräte
