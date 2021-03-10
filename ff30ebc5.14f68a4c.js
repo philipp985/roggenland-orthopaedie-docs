@@ -1,1 +1,0 @@
-(window.webpackJsonp=window.webpackJsonp||[]).push([[63],{126:function(e){e.exports=JSON.parse('{"title":"Inhalt","items":[{"title":"Corona","permalink":"/blog/corona"},{"title":"Verst\xe4rkung","permalink":"/blog/verstaerkung"},{"title":"Neue Website","permalink":"/blog/neue-website"}]}')}}]);
