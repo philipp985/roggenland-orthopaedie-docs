@@ -1,7 +1,7 @@
 module.exports = {
   title: "Orthopädische Facharztpraxis",
   tagline: "Ihre Orthopäden in Bochum",
-  url: "https://philipp985.github.io/",
+  url: "https://roggenland-orthopaedie.de",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
