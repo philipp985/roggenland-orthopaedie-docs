@@ -1,9 +1,7 @@
 import Head from "@docusaurus/Head";
 import Layout from "@theme/Layout";
-import clsx from "clsx";
 import React from "react";
 import { TerminHeaderComponent } from "../components/terminHeaderComponent";
-import styles from "./styles.module.css";
 
 function Termin() {
   return (
@@ -18,7 +16,6 @@ function Termin() {
         data-language="de"
         className="iframe-container"
       />
-      <div className={clsx(styles.buttons)} />
     </Layout>
   );
 }

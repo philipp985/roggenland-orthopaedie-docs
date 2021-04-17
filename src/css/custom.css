@@ -142,3 +142,15 @@
     font-size: 2.5rem !important;
   }
 }
+
+/*Make it obsolete to scroll in calendar iframe */
+section > div > iframe {
+  height: 60vh;
+}
+
+@media screen and (max-width: 966px) {
+  section > div > iframe {
+    height: 110vh;
+  }
+}
+/*End iframe*/
