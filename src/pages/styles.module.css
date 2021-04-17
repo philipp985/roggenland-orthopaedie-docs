@@ -43,3 +43,13 @@
   height: 200px;
   width: 200px;
 }
+
+iframe {
+  height: 60vh;
+}
+
+@media screen and (max-width: 966px) {
+  iframe {
+    height: 110vh;
+  }
+}
