@@ -14,7 +14,6 @@ function Termin() {
         data-toggle="doc-calendar"
         data-practice-eid={"65079ecc-2000-4ce5-a605-13ebd5f08427"}
         data-language="de"
-        className="iframe-container"
       />
     </Layout>
   );

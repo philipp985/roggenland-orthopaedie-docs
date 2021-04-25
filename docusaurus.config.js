@@ -8,7 +8,7 @@ module.exports = {
   favicon: "img/favicon.ico",
   organizationName: "philipp985", // Usually your GitHub org/user name.
   projectName: "roggenland-orthopaedie-docs", // Usually your repo name.
-  // i18n: { defaultLocale: "de", locales: ["de"] },
+  i18n: { defaultLocale: "de", locales: ["de"] },
   themeConfig: {
     colorMode: {
       defaultMode: "light",
