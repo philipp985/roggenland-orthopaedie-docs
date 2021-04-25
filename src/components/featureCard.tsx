@@ -34,9 +34,11 @@ export function FeatureCard({
       )} */}
         <p>{description}</p>
         <ul>
-          {items.map((x, i) => (
-            <li key={i}>{x}</li>
-          ))}
+          {items
+            .sort((a, b) => a.localeCompare(b))
+            .map((x, i) => (
+              <li key={i}>{x}</li>
+            ))}
         </ul>
       </div>
       <div className="card__footer">
