@@ -4,28 +4,35 @@
         <title>Orthopädische Facharztpraxis Blog</title>
         <link>https://roggenland-orthopaedie.de/blog</link>
         <description>Orthopädische Facharztpraxis Blog</description>
-        <lastBuildDate>Mon, 10 Feb 2020 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Sun, 25 Apr 2021 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
+        <item>
+            <title><![CDATA[Corona Test]]></title>
+            <link>https://roggenland-orthopaedie.de/blog/corona-test</link>
+            <guid>corona-test</guid>
+            <pubDate>Sun, 25 Apr 2021 00:00:00 GMT</pubDate>
+            <description><![CDATA[Auch wir möchten unseren Teil zur Eindämmung der Corona-Pandemie beitragen. Daher bieten wir ab dem 26.04.2021 für unsere Patienten eine kostenlose Corona-Schnelltestung an. Das Ergebnis ist innerhalb von nur 15 Minuten verfügbar. Sprechen Sie uns gerne in der Praxis an oder melden Sie sich telefonisch.]]></description>
+        </item>
         <item>
             <title><![CDATA[Corona]]></title>
             <link>https://roggenland-orthopaedie.de/blog/corona</link>
             <guid>corona</guid>
-            <pubDate>Mon, 10 Feb 2020 00:00:00 GMT</pubDate>
+            <pubDate>Wed, 10 Feb 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Auch in der schwierigen Pandemie-Situation sind wir für Sie da. Durch unser Hygiene-Konzept möchten wir Sie und auch uns schützen.]]></description>
         </item>
         <item>
             <title><![CDATA[Verstärkung]]></title>
             <link>https://roggenland-orthopaedie.de/blog/verstaerkung</link>
             <guid>verstaerkung</guid>
-            <pubDate>Sat, 04 Jan 2020 00:00:00 GMT</pubDate>
+            <pubDate>Mon, 04 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Seit dem 01.01.2021 begrüßen wir meine Tochter Katharina Roggenland als Fachärztin für Orthopädie und Unfallchirurgie in unserer Praxis. Bereits während des Medizinstudiums in Marburg und Essen hat sie sich für die Fachrichtung Orthopädie und Unfallchirurgie entschieden. Im Rahmen ihrer Facharztausbildung in Dortmund und Bochum konnte sie viele Erfahrungen sammeln. Wir freuen uns auf die Zusammenarbeit.]]></description>
         </item>
         <item>
             <title><![CDATA[Neue Website]]></title>
             <link>https://roggenland-orthopaedie.de/blog/neue-website</link>
             <guid>neue-website</guid>
-            <pubDate>Wed, 01 Jan 2020 00:00:00 GMT</pubDate>
+            <pubDate>Fri, 01 Jan 2021 00:00:00 GMT</pubDate>
             <description><![CDATA[Herzlich willkommen auf unserer neu gestalteten Internetseite.]]></description>
         </item>
     </channel>
