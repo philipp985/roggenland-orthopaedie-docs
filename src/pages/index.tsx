@@ -62,35 +62,6 @@ function Home() {
                 Roggenland
               </h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
-
-              {/* <div className="row">
-                <div className="col col--6">
-                  <div className={clsx(styles.buttons)}>
-                    <Link
-                      className={clsx(
-                        "button button--secondary button--lg",
-                        styles.getStarted
-                      )}
-                      to={useBaseUrl("contact")}
-                    >
-                      Jetzt Termin vereinbaren
-                    </Link>
-                  </div>
-                </div>
-                <div className="col col--6">
-                  <div className={styles.buttons}>
-                    <Link
-                      className={clsx(
-                        "button button--outline button--secondary button--lg",
-                        styles.getStarted
-                      )}
-                      to={useBaseUrl("contact/")}
-                    >
-                      Kontakt
-                    </Link>
-                  </div>
-                </div>
-              </div> */}
               <div className={clsx(styles.buttons)}>
                 <Link
                   className={clsx(
@@ -104,6 +75,10 @@ function Home() {
               </div>
             </div>
             <div className="col col--5">
+              {/* <Image
+                img={require("../../static/img/hero_cropped.jpg")}
+                className="img__rectangle"
+              /> */}
               <img
                 alt="Team"
                 src={useBaseUrl("img/hero_cropped.jpg")}
