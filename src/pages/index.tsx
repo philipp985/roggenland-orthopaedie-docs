@@ -68,7 +68,7 @@ function Home() {
                     "button button--secondary button--lg",
                     styles.getStarted
                   )}
-                  to={useBaseUrl("termin")}
+                  to={useBaseUrl("Termin")}
                 >
                   <FaCalendarAlt /> Jetzt Termin vereinbaren
                 </Link>
