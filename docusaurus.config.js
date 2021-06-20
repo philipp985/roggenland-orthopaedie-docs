@@ -36,7 +36,8 @@ module.exports = {
           to: "Termin",
           label: "Jetzt Termin vereinbaren",
           position: "right",
-          className: "button button--secondary navbarBtn",
+          className:
+            "button button--secondary padding-left--md padding-right--md",
         },
       ],
     },
