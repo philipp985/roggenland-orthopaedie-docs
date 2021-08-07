@@ -1,4 +1,4 @@
-# Stats for lighthouse benchmark
+# Stats for lighthouse benchmarks
 
 | Date       | Performance | Accessibility | Best Practices | SEO | PWA | Note      |
 | ---------- | ----------- | ------------- | -------------- | --- | --- | --------- |
