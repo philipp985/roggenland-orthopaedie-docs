@@ -1248,10 +1248,10 @@
     url-loader "^4.1.1"
     webpack "^5.40.0"
 
-"@docusaurus/module-type-aliases@^2.0.0-beta.2":
-  version "2.0.0-beta.2"
-  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.2.tgz#06a1aa9acb3ce1b93b59459aae48e9b57d620570"
-  integrity sha512-mRAojZIx8ST+bL2O4i+QoVN9RQA93HT3Ki8/6buKsg3Nikat7wZIB27/9wpjHLb86xHR4TmumAYF5KlkPNeANg==
+"@docusaurus/module-type-aliases@^2.0.0-beta.5":
+  version "2.0.0-beta.5"
+  resolved "https://registry.yarnpkg.com/@docusaurus/module-type-aliases/-/module-type-aliases-2.0.0-beta.5.tgz#d215c9dd4f64ee9b9d41d28983ca72735319746a"
+  integrity sha512-XTTDws3FBCLyZBqoP1k36rCOgH4D+74llIgkOdfSwxUjYdTfvMbkSniYKWUzD6otIPcWANCrncvADf5u9hpbvg==
 
 "@docusaurus/plugin-content-blog@2.0.0-beta.2":
   version "2.0.0-beta.2"
