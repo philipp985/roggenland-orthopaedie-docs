@@ -1,1 +1,0 @@
-(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([[6687],{8053:function(e){"use strict";e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"hygiene","name":"hygiene","count":1,"permalink":"/blog/tags/hygiene"}')}}]);
