@@ -10,7 +10,10 @@ function Kontakt() {
   const context = useDocusaurusContext();
   const { siteConfig = {} } = context;
   return (
-    <Layout title="Kontakt & Anfahrt">
+    <Layout
+      title="Kontakt & Anfahrt"
+      description="Sie finden uns direkt in der Bochuer Innenstadt im City Point"
+    >
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}
       >

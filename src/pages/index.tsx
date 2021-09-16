@@ -48,7 +48,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="Operative und konservative orthopädische Therapien seit mehr als 20 Jahren in Bochum."
+      description="Operative und konservative orthopädische Therapien seit mehr als 20 Jahren in Bochum. Online Terminvergabe jederzeit möglich."
     >
       <header
         className={clsx("hero hero--primary heroBgImage", styles.heroBanner)}

@@ -5,7 +5,10 @@ import { TerminHeaderComponent } from "../components/terminHeaderComponent";
 
 function Termin() {
   return (
-    <Layout title="Termin">
+    <Layout
+      title="Termin vereinbaren"
+      description="Jetzt online oder per Telefon einen Termin vereinbaren"
+    >
       <Head>
         <script src="https://api.patient.doctena.de/js/widgetBooking/calendar/build.php"></script>
       </Head>
