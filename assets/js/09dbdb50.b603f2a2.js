@@ -1,1 +1,0 @@
-(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([[7831],{242:function(o){"use strict";o.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/corona","name":"Corona","count":2,"permalink":"/blog/tags/corona"}')}}]);
