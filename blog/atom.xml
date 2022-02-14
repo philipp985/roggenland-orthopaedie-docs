@@ -17,6 +17,8 @@
         <author>
             <name>Katharina Roggenland</name>
         </author>
+        <category label="Corona" term="Corona"/>
+        <category label="Test" term="Test"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Corona]]></title>
@@ -28,6 +30,8 @@
         <author>
             <name>Katharina Roggenland</name>
         </author>
+        <category label="Corona" term="Corona"/>
+        <category label="Hygiene" term="Hygiene"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Verstärkung]]></title>
@@ -39,6 +43,8 @@
         <author>
             <name>Dr. Gerhard Roggenland</name>
         </author>
+        <category label="Team" term="Team"/>
+        <category label="Verstärkung" term="Verstärkung"/>
     </entry>
     <entry>
         <title type="html"><![CDATA[Neue Website]]></title>
@@ -52,5 +58,6 @@ In Kürze werden wir eine Onlineterminvergabe ergänzen. Damit soll es Ihnen von
         <author>
             <name>Katharina Roggenland</name>
         </author>
+        <category label="Website" term="Website"/>
     </entry>
 </feed>
