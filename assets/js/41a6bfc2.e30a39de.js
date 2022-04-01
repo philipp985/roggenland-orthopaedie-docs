@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([[1522],{9554:function(e){e.exports=JSON.parse('{"allTagsPath":"/blog/tags","slug":"/blog/tags/verstarkung","name":"Verst\xe4rkung","count":1,"permalink":"/blog/tags/verstarkung"}')}}]);
