@@ -27,7 +27,7 @@ function CompanyFeatureCard({
   return (
     <div className="card shadow--md">
       <div className="card__image">
-        <img src={imageUrl} alt="Image alt text" title="Logo Title Text 1" />
+        <img src={imageUrl} alt="Image alt text" title="Logo Title Text 1" style={{width:"100%"}} />
       </div>
       <div className="card__body">
         <h4 className="text--center">{title}</h4>
