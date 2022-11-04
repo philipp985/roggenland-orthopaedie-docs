@@ -1,4 +1,7 @@
-module.exports = {
+//@ts-check
+
+/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
+const sidebar = {
   someSidebar: {
     Leistungspektrum: [
       "sportmedizin",
@@ -39,3 +42,5 @@ module.exports = {
     ],
   },
 };
+
+module.exports = sidebar;

@@ -1,4 +1,7 @@
-module.exports = {
+//@ts-check
+
+/** @type {import('@docusaurus/types').Config} */
+const config = {
   title: "Orthopädische Facharztpraxis",
   tagline: "Ihre Orthopäden in Bochum",
   url: "https://roggenland-orthopaedie.de",
@@ -17,7 +20,7 @@ module.exports = {
     navbar: {
       title: "",
       logo: {
-        alt: "My Site Logo",
+        alt: "Orthopädische Facharztpraxis Roggenland",
         src: "img/logo.png",
       },
       items: [
@@ -101,3 +104,5 @@ module.exports = {
   ],
   // plugins: ["@docusaurus/plugin-ideal-image"],
 };
+
+module.exports = config;
