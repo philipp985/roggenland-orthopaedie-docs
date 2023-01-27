@@ -9,7 +9,7 @@
     <icon>https://roggenland-orthopaedie.de/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Corona Test]]></title>
-        <id>corona-test</id>
+        <id>https://roggenland-orthopaedie.de/blog/corona-test</id>
         <link href="https://roggenland-orthopaedie.de/blog/corona-test"/>
         <updated>2021-04-25T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Auch wir möchten unseren Teil zur Eindämmung der Corona-Pandemie beitragen. Daher bieten wir ab dem 26.04.2021 für unsere Patienten eine kostenlose Corona-Schnelltestung an. Das Ergebnis ist innerhalb von nur 15 Minuten verfügbar. Sprechen Sie uns gerne in der Praxis an oder melden Sie sich telefonisch.]]></summary>
@@ -22,7 +22,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Corona]]></title>
-        <id>corona</id>
+        <id>https://roggenland-orthopaedie.de/blog/corona</id>
         <link href="https://roggenland-orthopaedie.de/blog/corona"/>
         <updated>2021-02-10T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Auch in der schwierigen Pandemie-Situation sind wir für Sie da. Durch unser Hygiene-Konzept möchten wir Sie und auch uns schützen.]]></summary>
@@ -35,7 +35,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Verstärkung]]></title>
-        <id>verstaerkung</id>
+        <id>https://roggenland-orthopaedie.de/blog/verstaerkung</id>
         <link href="https://roggenland-orthopaedie.de/blog/verstaerkung"/>
         <updated>2021-01-04T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Seit dem 01.01.2021 begrüßen wir meine Tochter Katharina Roggenland als Fachärztin für Orthopädie und Unfallchirurgie in unserer Praxis. Bereits während des Medizinstudiums in Marburg und Essen hat sie sich für die Fachrichtung Orthopädie und Unfallchirurgie entschieden. Im Rahmen ihrer Facharztausbildung in Dortmund und Bochum konnte sie viele Erfahrungen sammeln. Wir freuen uns auf die Zusammenarbeit.]]></summary>
@@ -48,7 +48,7 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Neue Website]]></title>
-        <id>neue-website</id>
+        <id>https://roggenland-orthopaedie.de/blog/neue-website</id>
         <link href="https://roggenland-orthopaedie.de/blog/neue-website"/>
         <updated>2021-01-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[Herzlich willkommen auf unserer neu gestalteten Internetseite.]]></summary>
