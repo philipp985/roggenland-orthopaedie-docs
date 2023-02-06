@@ -1,39 +1,42 @@
 {
-  "name": "orthopaedie-roggenland-docs",
-  "version": "1.0.0",
-  "private": true,
-  "scripts": {
-    "docusaurus": "docusaurus",
-    "start": "docusaurus start",
-    "build": "docusaurus build",
-    "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy",
-    "serve": "docusaurus serve",
-    "clear": "docusaurus clear"
+  "browserslist": {
+    "development": [
+      "last 1 chrome version"
+    ],
+    "production": [
+      ">0.5%",
+      "not dead",
+      "not op_mini all"
+    ]
   },
   "dependencies": {
-    "@docusaurus/core": "2.3.0",
-    "@docusaurus/plugin-ideal-image": "^2.3.0",
-    "@docusaurus/preset-classic": "2.3.0",
+    "@docusaurus/core": "2.3.1",
+    "@docusaurus/plugin-ideal-image": "^2.3.1",
+    "@docusaurus/preset-classic": "2.3.1",
     "clsx": "^1.2.1",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-icons": "^4.7.1"
   },
-  "browserslist": {
-    "production": [
-      ">0.5%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version"
-    ]
-  },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "^2.3.0",
+    "@cspell/dict-de-de": "3.0.2",
+    "@docusaurus/module-type-aliases": "^2.3.1",
     "@tsconfig/docusaurus": "^1.0.6",
     "@types/react": "^17.0.53",
-    "typescript": "^4.9.4"
-  }
+    "cspell": "^6.22.0",
+    "typescript": "^4.9.5"
+  },
+  "name": "orthopaedie-roggenland-docs",
+  "private": true,
+  "scripts": {
+    "build": "docusaurus build",
+    "clear": "docusaurus clear",
+    "deploy": "docusaurus deploy",
+    "docusaurus": "docusaurus",
+    "serve": "docusaurus serve",
+    "start": "docusaurus start",
+    "swizzle": "docusaurus swizzle",
+    "lint:spelling": "cspell \"**\" --no-progress"
+  },
+  "version": "1.0.0"
 }
