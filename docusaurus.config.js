@@ -75,14 +75,15 @@ const config = {
       id: "new_website", // Any value that will identify this message.
       content:
         'Wir sind auch in der Corona Pandemie für Sie erreichbar. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="/blog/corona">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
-      // backgroundColor: '#fafbfc', // Defaults to `#fff`.
-      // textColor: '#091E42', // Defaults to `#000`.
+      backgroundColor: "#fafbfc", // Defaults to `#fff`.
+      textColor: "#091E42", // Defaults to `#000`.
     },
   },
   presets: [
     [
-      "@docusaurus/preset-classic",
-      {
+      "classic",
+      /** @type {import('@docusaurus/preset-classic').Options} */
+      ({
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -99,7 +100,7 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      },
+      }),
     ],
   ],
   // plugins: ["@docusaurus/plugin-ideal-image"],
