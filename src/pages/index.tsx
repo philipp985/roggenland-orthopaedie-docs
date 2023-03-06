@@ -88,21 +88,6 @@ function Home(): JSX.Element {
         </div>
       </header>
       <main>
-        <div className="row">
-          <div className="col col--4 col--offset-4">
-            <div className="col-demo">
-              <div
-                className="alert alert--secondary margin--md"
-                role="alert"
-                style={{ backgroundColor: "rgba(255, 92, 0, 0.8)" }}
-              >
-                <h4>Geänderte Öffnungszeiten an Karneval</h4>
-                Liebe Patienten am Rosenmontag, den 20.02.2023, hat unsere
-                Praxis nur bis 13:00 Uhr für Sie geöffnet geöffnet.
-              </div>
-            </div>
-          </div>
-        </div>
         <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>
