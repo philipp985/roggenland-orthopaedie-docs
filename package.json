@@ -26,7 +26,7 @@
     "@tsconfig/docusaurus": "^1.0.7",
     "@types/react": "^17.0.53",
     "cspell": "^6.31.1",
-    "typescript": "^5.0.2"
+    "typescript": "^5.0.4"
   },
   "name": "orthopaedie-roggenland-docs",
   "private": true,
