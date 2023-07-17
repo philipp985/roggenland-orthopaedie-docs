@@ -2,6 +2,7 @@ import clsx from "clsx";
 import React from "react";
 import styles from "../pages/styles.module.css";
 import Link from "@docusaurus/Link";
+import { FaExclamationTriangle } from "react-icons/fa";
 
 export function TerminHeaderComponent() {
   return (
@@ -15,20 +16,24 @@ export function TerminHeaderComponent() {
             Zusätzlich und in dringenden Fällen sind wir auch telefonisch
             erreichbar.
           </p>
-        </div>
-      </header>
-
-      <div className="container padding--md">
-        <div className="row">
-          <div className="col col--8 col--offset-2">
-            <div className="alert alert--danger" role="alert">
-              Die Online-Terminvergabe ist derzeit nicht verfügbar. Bitte melden
-              Sie sich <Link to="/Kontakt">telefonisch</Link>, um einen Termin
-              zu erhalten.
+          <div className="container padding--md">
+            <div className="row">
+              <div className="col col--8 col--offset-2">
+                <div
+                  className="alert alert--danger"
+                  role="alert"
+                  style={{ fontSize: "x-large" }}
+                >
+                  Die Online-Terminvergabe ist derzeit nur eingeschränkt
+                  verfügbar. Insbesondre für Termine bei Frau Roggenland melden
+                  Sie sich bitte <Link to="/Kontakt">telefonisch</Link>, um
+                  einen Termin zu erhalten.
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </header>
     </>
   );
 }
