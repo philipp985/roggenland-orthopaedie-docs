@@ -24,8 +24,8 @@
     "@cspell/dict-de-de": "3.1.0",
     "@docusaurus/module-type-aliases": "^2.4.1",
     "@tsconfig/docusaurus": "^2.0.0",
-    "@types/react": "^17.0.62",
-    "cspell": "^6.31.1",
+    "@types/react": "^17.0.65",
+    "cspell": "^7.0.1",
     "typescript": "^5.1.6"
   },
   "name": "orthopaedie-roggenland-docs",
