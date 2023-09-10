@@ -25,7 +25,7 @@ export function TerminHeaderComponent() {
                   style={{ fontSize: "x-large" }}
                 >
                   Die Online-Terminvergabe ist derzeit nur eingeschränkt
-                  verfügbar. Insbesondre für Termine bei Frau Roggenland melden
+                  verfügbar. Insbesondere für Termine bei Frau Roggenland melden
                   Sie sich bitte <Link to="/Kontakt">telefonisch</Link>, um
                   einen Termin zu erhalten.
                 </div>
