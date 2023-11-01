@@ -12,20 +12,21 @@
     ]
   },
   "dependencies": {
-    "@docusaurus/core": "2.4.1",
-    "@docusaurus/plugin-ideal-image": "^2.4.1",
-    "@docusaurus/preset-classic": "2.4.1",
+    "@docusaurus/core": "3.0.0",
+    "@docusaurus/plugin-ideal-image": "^3.0.0",
+    "@docusaurus/preset-classic": "3.0.0",
     "clsx": "^2.0.0",
-    "react": "^17.0.2",
-    "react-dom": "^17.0.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-icons": "^4.11.0"
   },
   "devDependencies": {
-    "@cspell/dict-de-de": "3.1.0",
-    "@docusaurus/module-type-aliases": "^2.4.1",
-    "@tsconfig/docusaurus": "^2.0.0",
-    "@types/react": "^17.0.65",
-    "cspell": "^7.3.4",
+    "@cspell/dict-de-de": "3.1.1",
+    "@docusaurus/module-type-aliases": "^3.0.0",
+    "@docusaurus/types": "3.0.0",
+    "@tsconfig/docusaurus": "^2.0.2",
+    "@types/react": "^18.2.33",
+    "cspell": "^7.3.8",
     "typescript": "^5.2.2"
   },
   "name": "orthopaedie-roggenland-docs",
@@ -45,6 +46,6 @@
   },
   "version": "1.0.0",
   "engines": {
-    "node": ">=16.14"
+    "node": ">=18"
   }
 }

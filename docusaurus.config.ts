@@ -1,7 +1,7 @@
-//@ts-check
+import type * as Preset from "@docusaurus/preset-classic";
+import type { Config } from "@docusaurus/types";
 
-/** @type {import('@docusaurus/types').Config} */
-const config = {
+const config: Config = {
   title: "Orthopädische Facharztpraxis",
   tagline: "Ihre Orthopäden in Bochum",
   url: "https://roggenland-orthopaedie.de",
@@ -71,19 +71,18 @@ const config = {
       // ],
       copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
     },
-    announcementBar: {
-      id: "new_website", // Any value that will identify this message.
-      content:
-        'Wir sind auch in der Corona Pandemie für Sie erreichbar. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="/blog/corona">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
-      backgroundColor: "#fafbfc", // Defaults to `#fff`.
-      textColor: "#091E42", // Defaults to `#000`.
-    },
-  },
+    // announcementBar: {
+    //   id: "new_website", // Any value that will identify this message.
+    //   content:
+    //     'Wir sind auch in der Corona Pandemie für Sie erreichbar. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="/blog/corona">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
+    //   backgroundColor: "#fafbfc", // Defaults to `#fff`.
+    //   textColor: "#091E42", // Defaults to `#000`.
+    // },
+  } satisfies Preset.ThemeConfig,
   presets: [
     [
       "classic",
-      /** @type {import('@docusaurus/preset-classic').Options} */
-      ({
+      {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
@@ -100,7 +99,7 @@ const config = {
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
         },
-      }),
+      } satisfies Preset.Options,
     ],
   ],
   // plugins: ["@docusaurus/plugin-ideal-image"],
