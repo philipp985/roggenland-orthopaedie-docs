@@ -1,9 +1,9 @@
 import TeamMember from "../models/teamMember";
 
 export const getTeam = () => {
-  var team: TeamMember[] = [];
+  const team: TeamMember[] = [];
 
-  var gerd: TeamMember = {
+  const gerd: TeamMember = {
     id: "gerhard",
     name: "Dr. med. Gerhard Roggenland",
     features: FeaturesGerd,
@@ -11,7 +11,7 @@ export const getTeam = () => {
     position: "Facharzt für Orthopädie und Unfallchirurgie",
   };
   team.push(gerd);
-  var katharina: TeamMember = {
+  const katharina: TeamMember = {
     id: "katharina",
     name: "Katharina Roggenland",
     features: FeaturesKatharina,
@@ -24,12 +24,12 @@ export const getTeam = () => {
 
 const FeaturesGerd = [
   "Studium der Medizin an der Westfälischen Wilhelms-Universität Münster",
-  "Weiterbildung am Anatomischen Institut der Wilhelms-Universität Münster",
-  "Weiterbildung in der Unfallchirurgie am Universitätsklinikum Essen",
+  "Weiterbildung am Anatomischen Institut der Wilhelms-Universität Münster (Prof. D. Eichner)",
+  "Weiterbildung in der Unfallchirurgie am Universitätsklinikum Essen (Prof. K.-P. Schmitt-Neuerburg)",
   "Facharztausbildung in der Orthopädischen Universitätsklinik Düsseldorf",
   "Spezielle orthopädische Chirurgie",
-  "Ausbildung Sonografie der Säuglingshüfte (Stolzalpe/Österreich)",
-  "Ausbildung Chirotherapie (Isny-Neutrauchburg)",
+  "Ausbildung Sonografie der Säuglingshüfte (Stolzalpe/Österreich Prof. R. Graf)",
+  "Ausbildung Chirotherapie (MWE, Isny, Dr. med. H-P Bischoff)",
   "Akademischer Rat und Oberarzt der Orthopädischen Universitätsklinik Düsseldorf",
   "Seit 1989 niedergelassener Orthopäde in Bochum",
   "Ausbildung Akupunktur (Forschungsgruppe Akupunktur)",

@@ -1,5 +1,3 @@
-import React from "react";
-
 export const baseServices = [
   {
     title: "Diagnostik",
@@ -14,7 +12,7 @@ export const baseServices = [
   },
   {
     title: "Schmerztherapie",
-    imageUrl: "img/schmerztherapie_startPage.jpg",
+    imageUrl: "img/2023-11-20_axomera.jpg",
     description: (
       <>
         Schmerztherapeutisch führen wir sämtliche innovativen Verfahren wie z.B.
