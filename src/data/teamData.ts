@@ -26,7 +26,7 @@ const FeaturesGerd = [
   "Studium der Medizin an der Westfälischen Wilhelms-Universität Münster",
   "Weiterbildung am Anatomischen Institut der Wilhelms-Universität Münster (Prof. D. Eichner)",
   "Weiterbildung in der Unfallchirurgie am Universitätsklinikum Essen (Prof. K.-P. Schmitt-Neuerburg)",
-  "Facharztausbildung in der Orthopädischen Universitätsklinik Düsseldorf",
+  "Facharztausbildung in der Orthopädischen Universitätsklinik Düsseldorf (Prof. K.P. Schulitz)",
   "Spezielle orthopädische Chirurgie",
   "Ausbildung Sonografie der Säuglingshüfte (Stolzalpe/Österreich Prof. R. Graf)",
   "Ausbildung Chirotherapie (MWE, Isny, Dr. med. H-P Bischoff)",
