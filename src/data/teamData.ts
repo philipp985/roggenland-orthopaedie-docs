@@ -19,6 +19,13 @@ export const getTeam = () => {
     position: "Fachärztin für Orthopädie und Unfallchirurgie",
   };
   team.push(katharina);
+  team.push({
+    id: "nannie",
+    name: "Dr. med. Nannie Morrosch",
+    position: "Fachärztin für Orthopädie und Unfallchirugie",
+    features: FeaturesNannie,
+    imageUrl: "img/nannie_square.jpg",
+  });
   return team;
 };
 
@@ -43,4 +50,18 @@ const FeaturesKatharina = [
   "Facharztprüfung Orthopädie und Unfallchirurgie",
   "Ausbildung Sonografie Säuglingshüfte nach Graf (Dortmund)",
   "Ausbildung Akupunktur (Forschungsgruppe Akupunktur)",
+];
+
+const FeaturesNannie = [
+  "Studium der Medizin an der Ruhr-Universität Bochum, Universität Tours/Frankreich und Alcalá de Henares/Spanien",
+  "Weiterbildung in der Klinik für Orthopädie und Unfallchirurgie im St. Josef-Hospital Bochum Klinikum der Ruhr-Universität Bochum",
+  "Weiterbildung in der Chirurgischen Klinik und Poliklinik BG Universitätsklinikum Bergmannsheil Bochum",
+  "Weiterbildung in der Klinik für Allgemein- und Viszeralchirurgie im St. Josef-Hospital Bochum Klinikum der Ruhr-Universität Bochum",
+  "Weiterbildung in der Klinik für Orthopädie und Unfallchirurgie im St. Marienhospital Borken",
+  "Weiterbildung in der Klinik für Orthopädie, Spezielle orthopädische Chirurgie und Wirbelsäulentherapie im Klinikum Westfalen - Knappschaftskrankenhaus Dortmund",
+  "Fachärztin für Orthopädie und Unfallchirurgie",
+  "Spezielle Orthopädische Chirurgie",
+  "Fachkunde Rettungsdienst",
+  "Zertifikat Fußchirurgie D.A.F.",
+  "Zertifikat Medizinische Begutachtung",
 ];

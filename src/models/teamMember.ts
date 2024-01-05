@@ -1,5 +1,5 @@
 export default class TeamMember {
-  id: "katharina" | "gerhard";
+  id: "katharina" | "gerhard" | "nannie";
   name: string;
   imageUrl: string;
   position: string;

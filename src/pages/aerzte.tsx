@@ -1,6 +1,5 @@
 import Layout from "@theme/Layout";
 import clsx from "clsx";
-import React from "react";
 import { DoctorCard } from "../components/doctorCard";
 import { getTeam } from "../data/teamData";
 import styles from "./styles.module.css";
@@ -23,7 +22,7 @@ function Doctors() {
         <div className="container">
           <div className="row">
             {getTeam().map((x, i) => (
-              <div className="col col--6" key={i}>
+              <div className="col col--4" key={i}>
                 <DoctorCard {...x} />
               </div>
             ))}
