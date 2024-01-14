@@ -44,12 +44,12 @@ const FeaturesGerd = [
 
 const FeaturesKatharina = [
   "Studium der Medizin an der Philipps-Universität Marburg und der Universität Duisburg-Essen",
-  "Weiterbildung in der Orthopädischen Abteilung Klinikum Dortmund gGmbH",
-  "Weiterbildung Unfallchirurgie an dem BG Universitätsklinikum Bergmannsheil Bochum",
-  "Weiterbildung an der Klinik für Orthopädie und Unfallchirurgie am St. Josef Hospital Bochum-Klinikum der Ruhr-Universität-Bochum",
+  "Weiterbildung in der Orthopädischen Abteilung Klinikum Dortmund gGmbH (Prof. Katthagen, Prof. Lürung)",
+  "Weiterbildung Unfallchirurgie an dem BG Universitätsklinikum Bergmannsheil Bochum (Prof. Schildhauer)",
+  "Weiterbildung an der Klinik für Orthopädie und Unfallchirurgie am St. Josef Hospital Bochum-Klinikum der Ruhr-Universität-Bochum (Prof. Schulte)",
   "Facharztprüfung Orthopädie und Unfallchirurgie",
   "Ausbildung Sonografie Säuglingshüfte nach Graf (Dortmund)",
-  "Ausbildung Akupunktur (Forschungsgruppe Akupunktur)",
+  "Zusatzbezeichnung Akupunktur (Forschungsgruppe Akupunktur)",
 ];
 
 const FeaturesNannie = [

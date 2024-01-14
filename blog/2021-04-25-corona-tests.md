@@ -3,6 +3,7 @@ slug: corona-test
 title: Corona Test
 author: Katharina Roggenland
 author_title: Fachärztin für Orthopädie und Unfallchirurgie
+author_image_url: /img/katharina_square.jpg
 tags: [Corona, Test]
 ---
 

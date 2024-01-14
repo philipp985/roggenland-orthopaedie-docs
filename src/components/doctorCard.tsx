@@ -26,11 +26,6 @@ export function DoctorCard({
             <small className="avatar__subtitle">{position}</small>
           </div>
         </div>
-        {/* {imgUrl && (
-        <div className="card__image">
-          <img src={imgUrl} alt={name} />
-        </div>
-      )} */}
         <ul style={{ paddingTop: "1rem" }}>
           {features.map((x, i) => (
             <li key={i}>{x}</li>
