@@ -1,7 +1,7 @@
 ---
 slug: verstaerkung
 title: Verstärkung
-author: Dr. Gerhard Roggenland
+author: Dr. med. Gerhard Roggenland
 author_title: Facharzt für Orthopädie und Unfallchirurgie
 author_image_url: /img/gerd_square.jpg
 tags: [Team, Verstärkung]

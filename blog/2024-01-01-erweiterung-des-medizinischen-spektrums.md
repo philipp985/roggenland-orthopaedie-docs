@@ -1,7 +1,7 @@
 ---
 title: Erweiterung des medizinischen Spektrums
 authors:
-  - name: Dr. Gerhard Roggenland
+  - name: Dr. med. Gerhard Roggenland
     title: Facharzt für Orthopädie und Unfallchirurgie
     image_url: /img/gerd_square.jpg
 tags: [Team, Verstärkung, Medizinische Begutachtung, Fußsprechstunde]
