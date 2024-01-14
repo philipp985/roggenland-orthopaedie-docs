@@ -2,11 +2,31 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://roggenland-orthopaedie.de/blog</id>
     <title>Orthopädische Facharztpraxis Blog</title>
-    <updated>2021-04-25T00:00:00.000Z</updated>
+    <updated>2024-01-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://roggenland-orthopaedie.de/blog"/>
     <subtitle>Orthopädische Facharztpraxis Blog</subtitle>
     <icon>https://roggenland-orthopaedie.de/img/favicon.ico</icon>
+    <entry>
+        <title type="html"><![CDATA[Erweiterung des medizinischen Spektrums]]></title>
+        <id>https://roggenland-orthopaedie.de/blog/2024/01/01/erweiterung-des-medizinischen-spektrums</id>
+        <link href="https://roggenland-orthopaedie.de/blog/2024/01/01/erweiterung-des-medizinischen-spektrums"/>
+        <updated>2024-01-01T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Liebe Leser unserer WEBSITE,]]></summary>
+        <content type="html"><![CDATA[<p>Liebe Leser unserer WEBSITE,</p>
+<p>wir freuen und Sie auf unserer WEBSITE begrüßen zu dürfen.</p>
+<p>Ab sofort verstärkt <a href="https://roggenland-orthopaedie.de/Aerzte">Frau Dr. med. Nannie Morrosch</a> unser Ärzte Team. Sie wird unsere Praxis mit Engagement und Innovation weiter verstärken und unser diagnostische und therapeutisches Spektrum erweitern.</p>
+<p>Ab sofort bieten wir eine zertifizierte <strong>"Medizinische Begutachtung</strong> (Renten, Schwerbehinderten-, Gerichtsgutachten etc.) an.</p>
+<p>Ebenfalls gibt es eine spezielle Fußsprechstunde (nach Vereinbarung) auf den Grundlagen der zertifizierten Fußchirurgie D.A.F.</p>
+<p>Nutzen Sie auch weiterhin die Möglichkeiten der <a href="https://roggenland-orthopaedie.de/Termin">online Terminvergaben</a>.</p>]]></content>
+        <author>
+            <name>Dr. Gerhard Roggenland</name>
+        </author>
+        <category label="Team" term="Team"/>
+        <category label="Verstärkung" term="Verstärkung"/>
+        <category label="Medizinische Begutachtung" term="Medizinische Begutachtung"/>
+        <category label="Fußsprechstunde" term="Fußsprechstunde"/>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Corona Test]]></title>
         <id>https://roggenland-orthopaedie.de/blog/corona-test</id>

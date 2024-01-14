@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([[4910],{3554:e=>{e.exports=JSON.parse('{"label":"Fu\xdfsprechstunde","permalink":"/blog/tags/fusssprechstunde","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
