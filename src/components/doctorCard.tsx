@@ -36,7 +36,7 @@ export function DoctorCard({
         <Link
           className={"button button--outline button--block button--secondary"}
           // to={useBaseUrl("termin" + id)}
-          to={useBaseUrl("Termin")}
+          to={useBaseUrl("termin")}
         >
           <FaCalendarAlt /> Termin vereinbaren
         </Link>

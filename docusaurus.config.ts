@@ -25,18 +25,18 @@ const config: Config = {
       },
       items: [
         {
-          to: "Features",
+          to: "features",
           // activeBasePath: 'docs',
           label: "Leistungsspektrum",
           position: "left",
         },
-        { to: "Aerzte", label: "Ärzte", position: "left" },
-        { to: "Team", label: "Team", position: "left" },
-        { to: "Praxis", label: "Praxis", position: "left" },
-        { to: "Blog", label: "Aktuelles", position: "left" },
-        { to: "Kontakt", label: "Kontakt & Anfahrt" },
+        { to: "aerzte", label: "Ärzte", position: "left" },
+        { to: "team", label: "Team", position: "left" },
+        { to: "praxis", label: "Praxis", position: "left" },
+        { to: "blog", label: "Aktuelles", position: "left" },
+        { to: "kontakt", label: "Kontakt & Anfahrt" },
         {
-          to: "Termin",
+          to: "termin",
           label: "Jetzt Termin vereinbaren",
           position: "right",
           className:
