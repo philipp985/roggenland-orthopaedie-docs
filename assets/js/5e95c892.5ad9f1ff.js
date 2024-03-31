@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([[9661],{1892:(e,r,s)=>{s.r(r),s.d(r,{default:()=>u});s(7294);var a=s(512),o=s(8264),d=s(5281),n=s(8790),c=s(6040),t=s(5893);function u(e){return(0,t.jsx)(o.FG,{className:(0,a.Z)(d.k.wrapper.docsPages),children:(0,t.jsx)(c.Z,{children:(0,n.H)(e.route.routes)})})}}}]);
