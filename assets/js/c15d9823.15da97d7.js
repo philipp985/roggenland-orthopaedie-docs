@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([["9359"],{9546:function(e){e.exports=JSON.parse('{"metadata":{"permalink":"/blog","page":1,"postsPerPage":10,"totalPages":1,"totalCount":5,"blogDescription":"Blog","blogTitle":"Blog"}}')}}]);

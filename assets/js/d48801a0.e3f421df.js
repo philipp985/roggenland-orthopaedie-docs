@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkorthopaedie_roggenland_docs=self.webpackChunkorthopaedie_roggenland_docs||[]).push([[982],{4873:e=>{e.exports=JSON.parse('{"label":"Medizinische Begutachtung","permalink":"/blog/tags/medizinische-begutachtung","allTagsPath":"/blog/tags","count":1,"unlisted":false}')}}]);
