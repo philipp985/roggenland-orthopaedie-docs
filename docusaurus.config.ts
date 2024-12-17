@@ -2,6 +2,9 @@ import type * as Preset from "@docusaurus/preset-classic";
 import type { Config } from "@docusaurus/types";
 
 const config: Config = {
+  future: {
+    experimental_faster: true,
+  },
   title: "Orthopädische Facharztpraxis",
   tagline: "Ihre Orthopäden in Bochum",
   url: "https://roggenland-orthopaedie.de",
@@ -72,9 +75,9 @@ const config: Config = {
       copyright: `Copyright © ${new Date().getFullYear()} Orthopädische Facharztpraxis Roggenland<br/><a href="/imprint">Impressum</a> | <a href="/privacy">Datenschutz</a>`,
     },
     // announcementBar: {
-    //   id: "new_website", // Any value that will identify this message.
+    //   id: "xmas-24", // Any value that will identify this message.
     //   content:
-    //     'Wir sind auch in der Corona Pandemie für Sie erreichbar. Lesen Sie <a target="_blank" rel="noopener noreferrer" href="/blog/corona">hier</a>, was wir zu Ihrer Sicherheit unternehmen.',
+    //     "In dringenden Fällen sind wir am 23.12., 27.12. und 30.12. in der Zeit von 9-12:00 Uhr erreichbar",
     //   backgroundColor: "#fafbfc", // Defaults to `#fff`.
     //   textColor: "#091E42", // Defaults to `#000`.
     // },

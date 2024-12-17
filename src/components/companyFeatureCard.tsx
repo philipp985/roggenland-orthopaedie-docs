@@ -1,5 +1,4 @@
 import useBaseUrl from "@docusaurus/useBaseUrl";
-import React from "react";
 import NumberHelpers from "../helpers/numberHelpers";
 import { CompanyFeature } from "../models/companyFeature";
 
@@ -27,19 +26,16 @@ function CompanyFeatureCard({
   return (
     <div className="card shadow--md">
       <div className="card__image">
-        <img src={imageUrl} alt="Image alt text" title="Logo Title Text 1" style={{width:"100%"}} />
+        <img
+          src={imageUrl}
+          alt="Image alt text"
+          title="Logo Title Text 1"
+          style={{ width: "100%" }}
+        />
       </div>
       <div className="card__body">
         <h4 className="text--center">{title}</h4>
-        {/* <small>
-          The Quaco Head Lighthouse is a well maintained lighthouse close to St.
-          Martins. It is a short, beautiful walk to the lighthouse along the
-          seashore.
-        </small> */}
       </div>
-      {/* <div className="card__footer">
-        <button className="button button--primary button--block">Visit</button>
-      </div> */}
     </div>
   );
 }

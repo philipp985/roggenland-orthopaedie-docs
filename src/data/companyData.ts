@@ -19,7 +19,7 @@ export const openingHours = [
   },
   {
     day: "FR",
-    hours: "9.00-13.00 Uhr",
+    hours: "9.00-12.00 Uhr",
   },
   {
     day: "Zusätzlich",

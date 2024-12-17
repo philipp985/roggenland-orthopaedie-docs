@@ -1,4 +1,3 @@
-import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
@@ -7,8 +6,6 @@ import { companyData, openingHours } from "../data/companyData";
 import styles from "./styles.module.css";
 
 function Kontakt() {
-  const context = useDocusaurusContext();
-  const { siteConfig = {} } = context;
   return (
     <Layout
       title="Kontakt & Anfahrt"

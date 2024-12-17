@@ -87,6 +87,28 @@ function Home(): JSX.Element {
         </div>
       </header>
       <main>
+        <div className="container padding--md">
+          <div className="row">
+            <div className="col col--8 col--offset-2">
+              <div
+                className="alert alert--danger text--center"
+                role="alert"
+                // style={{ fontSize: "x-large" }}
+              >
+                <h2>🎄 Öffnungszeiten über die Feiertage</h2>
+                <p>
+                  In dringenden Fällen sind wir
+                  <br /> am 23.12., 27.12. und 30.12. in der Zeit von 9-12:00
+                  Uhr erreichbar.
+                </p>
+                <p>
+                  Wir wünschen allen ein frohes und gesegnetes Weihnachtsfest
+                  und einen guten Rutsch in das Jahr 2025.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
         <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>

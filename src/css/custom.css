@@ -25,6 +25,7 @@
   --ifm-color-secondary-lightest: #ff8d4d;
 
   --ifm-avatar-photo-size-xxl: 9rem;
+  --ifm-avatar-photo-size-xxxl: 14rem;
 }
 
 .docusaurus-highlight-code-line {
@@ -125,6 +126,11 @@
 .avatar__photo--xxl {
   height: var(--ifm-avatar-photo-size-xxl);
   width: var(--ifm-avatar-photo-size-xxl);
+}
+
+.avatar__photo--xxxl {
+  height: var(--ifm-avatar-photo-size-xxxl);
+  width: var(--ifm-avatar-photo-size-xxxl);
 }
 
 .img__rectangle {
