@@ -95,7 +95,7 @@ function Home(): JSX.Element {
                 role="alert"
                 // style={{ fontSize: "x-large" }}
               >
-                <h2>🎄 Öffnungszeiten über die Feiertage</h2>
+                <h2>🎄 Öffnungszeiten über die Feiertage 🎄</h2>
                 <p>
                   In dringenden Fällen sind wir
                   <br /> am 23.12., 27.12. und 30.12. in der Zeit von 9-12:00
