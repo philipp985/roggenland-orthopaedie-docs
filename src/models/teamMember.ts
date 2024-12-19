@@ -1,4 +1,4 @@
-export default class TeamMember {
+export default interface ITeamMember {
   id: "katharina" | "gerhard" | "nannie";
   name: string;
   imageUrl: string;

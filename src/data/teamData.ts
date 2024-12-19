@@ -1,9 +1,9 @@
-import TeamMember from "../models/teamMember";
+import ITeamMember from "../models/teamMember";
 
 export const getTeam = () => {
-  const team: TeamMember[] = [];
+  const team: ITeamMember[] = [];
 
-  const gerd: TeamMember = {
+  const gerd: ITeamMember = {
     id: "gerhard",
     name: "Dr. med. Gerhard Roggenland",
     features: FeaturesGerd,
@@ -11,7 +11,7 @@ export const getTeam = () => {
     position: "Facharzt für Orthopädie und Unfallchirurgie",
   };
   team.push(gerd);
-  const katharina: TeamMember = {
+  const katharina: ITeamMember = {
     id: "katharina",
     name: "Katharina Roggenland",
     features: FeaturesKatharina,

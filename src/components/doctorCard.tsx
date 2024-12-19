@@ -1,7 +1,7 @@
 import Link from "@docusaurus/Link";
 import useBaseUrl from "@docusaurus/useBaseUrl";
 import { FaCalendarAlt } from "react-icons/fa";
-import TeamMember from "../models/teamMember";
+import ITeamMember from "../models/teamMember";
 
 export function DoctorCard({
   imageUrl,
@@ -9,7 +9,7 @@ export function DoctorCard({
   features,
   position,
   id,
-}: TeamMember) {
+}: ITeamMember) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div

@@ -1,4 +1,7 @@
 {
-    "extends": "@docusaurus/tsconfig",
-    "include": ["src/"]
+  "extends": "@docusaurus/tsconfig",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": true
+  }
 }
