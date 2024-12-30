@@ -95,15 +95,16 @@ function Home(): JSX.Element {
                 role="alert"
                 // style={{ fontSize: "x-large" }}
               >
-                <h2>🎄 Öffnungszeiten über die Feiertage 🎄</h2>
+                <h2>🎉 Öffnungszeiten über den Jahreswechsel 🎉</h2>
                 <p>
-                  In dringenden Fällen sind wir
-                  <br /> am 23.12., 27.12. und 30.12. in der Zeit von 9-12:00
-                  Uhr erreichbar.
+                  Donnerstag, den 2.1.2025 9:00 - 12:00 Uhr <br />
+                  Freitag, den 3.1.2025 8:30 - 12:30 Uhr
                 </p>
                 <p>
-                  Wir wünschen allen ein frohes und gesegnetes Weihnachtsfest
-                  und einen guten Rutsch in das Jahr 2025.
+                  Ab dem 6.1.2025 sind wir wieder zu den{" "}
+                  <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
+                  Sie da. Wir wünschen Ihnen einen guten Rutsch und alles Gute
+                  für das Jahr 2025.
                 </p>
               </div>
             </div>
