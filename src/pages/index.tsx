@@ -87,13 +87,12 @@ function Home(): JSX.Element {
         </div>
       </header>
       <main>
-        <div className="container padding--md">
+        {/* <div className="container padding--md">
           <div className="row">
             <div className="col col--8 col--offset-2">
               <div
                 className="alert alert--danger text--center"
                 role="alert"
-                // style={{ fontSize: "x-large" }}
               >
                 <h2>🎉 Öffnungszeiten über den Jahreswechsel 🎉</h2>
                 <p>
@@ -109,7 +108,7 @@ function Home(): JSX.Element {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
         <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>
