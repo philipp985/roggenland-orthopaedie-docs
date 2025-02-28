@@ -6,14 +6,6 @@ interface IKey {
   order: number;
 }
 
-function ImageCol({ imgUrl }) {
-  return (
-    <div>
-      {imgUrl && <img src={imgUrl} className="img__rectangle shadow--md" />}
-    </div>
-  );
-}
-
 function CompanyFeatureCard({
   title,
   description,
@@ -27,8 +19,8 @@ function CompanyFeatureCard({
     <div className="card shadow--md">
       <div className="card__image">
         <img
-          src={imageUrl}
-          alt="Image alt text"
+          src={imgUrl}
+          alt="Team"
           title="Logo Title Text 1"
           style={{ width: "100%" }}
         />
