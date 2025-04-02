@@ -50,6 +50,7 @@ const FeaturesKatharina = [
   "Facharztprüfung Orthopädie und Unfallchirurgie",
   "Ausbildung Sonografie Säuglingshüfte nach Graf (Dortmund)",
   "Zusatzbezeichnung Akupunktur (Forschungsgruppe Akupunktur)",
+  "Zusatzbezeichnung Manuelle Therapie/ Chirotherapie (MWE)",
 ];
 
 const FeaturesNannie = [
