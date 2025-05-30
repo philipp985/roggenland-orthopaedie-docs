@@ -87,28 +87,33 @@ function Home(): JSX.Element {
         </div>
       </header>
       <main>
-        {/* <div className="container padding--md">
-          <div className="row">
-            <div className="col col--8 col--offset-2">
-              <div
-                className="alert alert--danger text--center"
-                role="alert"
-              >
-                <h2>🎉 Öffnungszeiten über den Jahreswechsel 🎉</h2>
-                <p>
-                  Donnerstag, den 2.1.2025 9:00 - 12:00 Uhr <br />
-                  Freitag, den 3.1.2025 8:30 - 12:30 Uhr
-                </p>
-                <p>
+        {new Date() > new Date("2025-06-16") && (
+          <div className="container padding--md">
+            <div className="row">
+              <div className="col col--8 col--offset-2">
+                <div className="alert alert--danger text--center" role="alert">
+                  <h2>Brückentag über Fronleichnam</h2>
+                  <p>
+                    Am Freitag, den 20.06.2025 ist die Praxis geschlossen. Am
+                    Montag sind wie wie gewohnt wieder für Sie da.
+                  </p>
+                  {/* <p>
                   Ab dem 6.1.2025 sind wir wieder zu den{" "}
                   <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
                   Sie da. Wir wünschen Ihnen einen guten Rutsch und alles Gute
                   für das Jahr 2025.
-                </p>
+                </p> */}
+                  <p>
+                    In dringenden Fällen wenden Sie sich bitte an den
+                    kassenärtzlichen Notdienst erreichbar unter der Nummer{" "}
+                    <a href="tel:116117">116117</a>.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
-        </div> */}
+        )}
+
         <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>
