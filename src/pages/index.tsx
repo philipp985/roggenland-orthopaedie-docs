@@ -95,7 +95,7 @@ function Home(): JSX.Element {
                   <h2>Brückentag über Fronleichnam</h2>
                   <p>
                     Am Freitag, den 20.06.2025 ist die Praxis geschlossen. Am
-                    Montag sind wie wie gewohnt wieder für Sie da.
+                    Montag sind wir wie gewohnt wieder für Sie da.
                   </p>
                   {/* <p>
                   Ab dem 6.1.2025 sind wir wieder zu den{" "}
