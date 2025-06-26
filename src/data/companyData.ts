@@ -1,5 +1,6 @@
 export const companyData = {
   title: "Orthopädische Facharztpraxis Roggenland",
+  boss: "Katharina Roggenland",
   address: "Kortumstraße 87-89 (City Point) ",
   address2ndLine: "44787 Bochum",
   addressLink:

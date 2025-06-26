@@ -1,6 +1,5 @@
 import Layout from "@theme/Layout";
 import clsx from "clsx";
-import React from "react";
 import { companyData } from "../data/companyData";
 import styles from "./styles.module.css";
 
@@ -18,7 +17,7 @@ function Imprint() {
         <div className="container">
           <h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
           <p>
-            Dr. Gerhard Roggenland
+            {companyData.boss}
             <br />
             {companyData.title}
             <br />
@@ -92,7 +91,7 @@ function Imprint() {
           </p> */}
           <h2>Redaktionell Verantwortlicher</h2>
           <p>
-            Dr. Gerhard Roggenland
+            {companyData.boss}
             <br />
             {companyData.address}
             <br />
