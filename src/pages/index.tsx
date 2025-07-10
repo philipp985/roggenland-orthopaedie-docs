@@ -87,7 +87,7 @@ function Home(): JSX.Element {
         </div>
       </header>
       <main>
-        {new Date() > new Date("2025-06-16") && (
+        {/* {new Date() > new Date("2025-06-16") && (
           <div className="container padding--md">
             <div className="row">
               <div className="col col--8 col--offset-2">
@@ -97,12 +97,12 @@ function Home(): JSX.Element {
                     Am Freitag, den 20.06.2025 ist die Praxis geschlossen. Am
                     Montag sind wir wie gewohnt wieder für Sie da.
                   </p>
-                  {/* <p>
+                 <p>
                   Ab dem 6.1.2025 sind wir wieder zu den{" "}
                   <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
                   Sie da. Wir wünschen Ihnen einen guten Rutsch und alles Gute
                   für das Jahr 2025.
-                </p> */}
+                </p> 
                   <p>
                     In dringenden Fällen wenden Sie sich bitte an den
                     kassenärtzlichen Notdienst erreichbar unter der Nummer{" "}
@@ -112,7 +112,7 @@ function Home(): JSX.Element {
               </div>
             </div>
           </div>
-        )}
+        )}*/}
 
         <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
