@@ -40,7 +40,7 @@ const config: Config = {
         { to: "blog", label: "Aktuelles", position: "left" },
         { to: "kontakt", label: "Kontakt & Anfahrt" },
         {
-          to: "termin",
+          to: "https://www.doctolib.de/einzelpraxis/bochum/orthopaedische-facharztpraxis-roggenland?utm_campaign=website-button&utm_source=orthopaedische-facharztpraxis-roggenland-website-button&utm_medium=referral&utm_content=option-8&utm_term=orthopaedische-facharztpraxis-roggenland",
           label: "Jetzt Termin vereinbaren",
           position: "right",
           className:

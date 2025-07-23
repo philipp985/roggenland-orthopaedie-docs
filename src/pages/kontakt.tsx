@@ -1,7 +1,13 @@
 import Layout from "@theme/Layout";
 import clsx from "clsx";
 import React from "react";
-import { FaFax, FaMapPin, FaPhone, FaRegPaperPlane } from "react-icons/fa";
+import {
+  FaCalendarAlt,
+  FaFax,
+  FaMapPin,
+  FaPhone,
+  FaRegPaperPlane,
+} from "react-icons/fa";
 import { companyData, openingHours } from "../data/companyData";
 import styles from "./styles.module.css";
 
@@ -69,6 +75,23 @@ function Kontakt() {
                   </a>
                 </dd>
               </dl>
+            </div>
+          </div>
+          <div className="row margin-top--xl">
+            <div className="col col--4 col--offset-4">
+              <div className="col-demo">
+                <a
+                  className={clsx(
+                    "button button--secondary button--lg",
+                    styles.getStarted
+                  )}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.doctolib.de/einzelpraxis/bochum/orthopaedische-facharztpraxis-roggenland?utm_campaign=website-button&utm_source=orthopaedische-facharztpraxis-roggenland-website-button&utm_medium=referral&utm_content=option-8&utm_term=orthopaedische-facharztpraxis-roggenland"
+                >
+                  <FaCalendarAlt /> Jetzt Termin vereinbaren
+                </a>
+              </div>
             </div>
           </div>
         </div>

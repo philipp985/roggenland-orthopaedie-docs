@@ -61,15 +61,17 @@ function Home(): JSX.Element {
               </h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
               <div className={clsx(styles.buttons)}>
-                <Link
+                <a
                   className={clsx(
                     "button button--secondary button--lg",
                     styles.getStarted
                   )}
-                  to={useBaseUrl("termin")}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  href="https://www.doctolib.de/einzelpraxis/bochum/orthopaedische-facharztpraxis-roggenland?utm_campaign=website-button&utm_source=orthopaedische-facharztpraxis-roggenland-website-button&utm_medium=referral&utm_content=option-8&utm_term=orthopaedische-facharztpraxis-roggenland"
                 >
                   <FaCalendarAlt /> Jetzt Termin vereinbaren
-                </Link>
+                </a>
               </div>
             </div>
             <div className="col col--5">
