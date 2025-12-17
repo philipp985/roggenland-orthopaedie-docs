@@ -1,5 +1,5 @@
 ---
-title: "Neue Online-Terminvergabe ab 1. August 2025 – Mehr Komfort für unsere Patientinnen und Patienten"
+title: "Neue Online-Terminvergabe ab 1. August 2025"
 author: Katharina Roggenland
 author_title: Fachärztin für Orthopädie und Unfallchirurgie
 author_image_url: /img/katharina_square.jpg

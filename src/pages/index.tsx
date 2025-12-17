@@ -116,6 +116,31 @@ function Home(): JSX.Element {
           </div>
         )}*/}
 
+        <div className="container padding--md">
+          <div className="row">
+            <div className="col col--8 col--offset-2">
+              <div className="alert alert--danger text--center" role="alert">
+                <h2>
+                  🎉 Erreichbarkeit unserer Praxis über den Jahreswechsel 🎉
+                </h2>
+                <p>
+                  Montag, den 22.12.2025 9:00 - 12:00 Uhr <br />
+                  Dienstag, den 23.12.2025 9:00 - 12:00 Uhr <br />
+                  Dienstag, den 24.12.2025 - 26.12.2025 geschlossen <br />
+                  Montag, den 29.12.2025 9:00 - 12:00 Uhr <br />
+                  Montag, den 30.12.2025 9:00 - 12:00 Uhr
+                </p>
+                <p>
+                  Ab dem 2.1.2026 sind wir wieder zu den{" "}
+                  <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
+                  Sie da. Wir wünschen Ihnen einen guten Rutsch und alles Gute
+                  für das Jahr 2026.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+
         <div className="container text--center">
           <h1 style={{ paddingTop: "2rem" }}>Was uns auszeichnet</h1>
         </div>
