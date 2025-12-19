@@ -128,10 +128,11 @@ function Home(): JSX.Element {
                   Dienstag, den 23.12.2025 9:00 - 12:00 Uhr <br />
                   Dienstag, den 24.12.2025 - 26.12.2025 geschlossen <br />
                   Montag, den 29.12.2025 9:00 - 12:00 Uhr <br />
-                  Montag, den 30.12.2025 9:00 - 12:00 Uhr
+                  Dienstag, den 30.12.2025 9:00 - 12:00 Uhr <br />
+                  Freitag, den 02.01.2026 geschlossen
                 </p>
                 <p>
-                  Ab dem 2.1.2026 sind wir wieder zu den{" "}
+                  Ab dem 5.1.2026 sind wir wieder zu den{" "}
                   <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
                   Sie da. Wir wünschen Ihnen einen guten Rutsch und alles Gute
                   für das Jahr 2026.
