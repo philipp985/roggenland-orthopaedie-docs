@@ -41,7 +41,7 @@ const features = [
   },
 ];
 
-function Home(): JSX.Element {
+function Home() {
   const { siteConfig } = useDocusaurusContext();
   return (
     <Layout
