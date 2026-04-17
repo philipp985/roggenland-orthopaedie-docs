@@ -28,7 +28,7 @@
     "@docusaurus/types": "^3.10.0",
     "@types/react": "^19.2.7",
     "cspell": "^10.0.0",
-    "typescript": "^6.0.2"
+    "typescript": "^6.0.3"
   },
   "name": "orthopaedie-roggenland-docs",
   "private": true,
