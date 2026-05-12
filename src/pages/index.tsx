@@ -64,7 +64,7 @@ function Home() {
                 <a
                   className={clsx(
                     "button button--secondary button--lg",
-                    styles.getStarted
+                    styles.getStarted,
                   )}
                   target="_blank"
                   rel="noopener noreferrer"
@@ -89,22 +89,18 @@ function Home() {
         </div>
       </header>
       <main>
-        {/* {new Date() > new Date("2025-06-16") && (
+        {new Date() < new Date("2026-05-16") && (
           <div className="container padding--md">
             <div className="row">
               <div className="col col--8 col--offset-2">
                 <div className="alert alert--danger text--center" role="alert">
-                  <h2>Brückentag über Fronleichnam</h2>
+                  <h2>Brückentag über Christi Himmelfahrt</h2>
+                  <p>Am Freitag, den 15.05.2026 ist die Praxis geschlossen.</p>
                   <p>
-                    Am Freitag, den 20.06.2025 ist die Praxis geschlossen. Am
-                    Montag sind wir wie gewohnt wieder für Sie da.
+                    Ab dem 18.05.2026 sind wir wieder zu den{" "}
+                    <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
+                    Sie da.
                   </p>
-                 <p>
-                  Ab dem 6.1.2025 sind wir wieder zu den{" "}
-                  <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
-                  Sie da. Wir wünschen Ihnen einen guten Rutsch und alles Gute
-                  für das Jahr 2025.
-                </p> 
                   <p>
                     In dringenden Fällen wenden Sie sich bitte an den
                     kassenärtzlichen Notdienst erreichbar unter der Nummer{" "}
@@ -114,7 +110,7 @@ function Home() {
               </div>
             </div>
           </div>
-        )}*/}
+        )}
 
         {/* <div className="container padding--md">
           <div className="row">
@@ -177,7 +173,7 @@ function Home() {
                   <Link
                     className={clsx(
                       "button button--outline button--secondary button--lg",
-                      styles.getStarted
+                      styles.getStarted,
                     )}
                     to={useBaseUrl("features/")}
                   >

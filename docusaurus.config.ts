@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 
 const config: Config = {
   future: {
-    experimental_faster: true,
+    faster: true,
     v4: true,
   },
   title: "Orthopädische Facharztpraxis",
