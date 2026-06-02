@@ -89,15 +89,15 @@ function Home() {
         </div>
       </header>
       <main>
-        {new Date() < new Date("2026-05-16") && (
+        {new Date() < new Date("2026-06-06") && (
           <div className="container padding--md">
             <div className="row">
               <div className="col col--8 col--offset-2">
                 <div className="alert alert--danger text--center" role="alert">
-                  <h2>Brückentag über Christi Himmelfahrt</h2>
-                  <p>Am Freitag, den 15.05.2026 ist die Praxis geschlossen.</p>
+                  <h2>Brückentag über Fronleichnam</h2>
+                  <p>Am Freitag, den 05.06.2026 ist die Praxis geschlossen.</p>
                   <p>
-                    Ab dem 18.05.2026 sind wir wieder zu den{" "}
+                    Ab dem 08.06.2026 sind wir wieder zu den{" "}
                     <Link to={useBaseUrl("kontakt")}>gewohnten Zeiten</Link> für
                     Sie da.
                   </p>
