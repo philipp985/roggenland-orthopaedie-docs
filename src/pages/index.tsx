@@ -111,7 +111,7 @@ function Home() {
             </div>
           </div>
         )}
-        {new Date() < new Date("2026-07-09") && (
+        {/* {new Date() < new Date("2026-07-09") && (
           <div className="container padding--md">
             <div className="row">
               <div className="col col--8 col--offset-2">
@@ -134,7 +134,7 @@ function Home() {
               </div>
             </div>
           </div>
-        )}
+        )} */}
 
         {/* <div className="container padding--md">
           <div className="row">
