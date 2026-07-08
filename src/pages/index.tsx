@@ -111,6 +111,30 @@ function Home() {
             </div>
           </div>
         )}
+        {new Date() < new Date("2026-07-09") && (
+          <div className="container padding--md">
+            <div className="row">
+              <div className="col col--8 col--offset-2">
+                <div className="alert alert--danger text--center" role="alert">
+                  <h2>Technische Störung</h2>
+                  <p>
+                    Aufgrund einer technischen Störung ist die Praxis am
+                    Mittwoch, den 08.07.2026 telefonisch nicht erreichbar.
+                  </p>
+                  <p>
+                    Per E-Mail sind wir weiterhin erreichbar die Adresse finden
+                    Sie unter dem folgenden{" "}
+                    <Link to={useBaseUrl("kontakt")}>Link</Link>.
+                  </p>
+                  <p>
+                    Ein Techniker ist informiert und kümmert sich um die
+                    Behebung der Störung. Wir bitten um Ihr Verständnis.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* <div className="container padding--md">
           <div className="row">
